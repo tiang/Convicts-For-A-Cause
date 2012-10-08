@@ -1,0 +1,10 @@
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\WebRole2.dll
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\WebRole2.pdb
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\System.Web.Providers.dll
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\obj\Debug\WebRole2.dll
+C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WebRole2\obj\Debug\WebRole2.pdb

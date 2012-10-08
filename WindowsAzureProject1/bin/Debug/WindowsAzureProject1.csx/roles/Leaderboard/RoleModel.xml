@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RoleModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Leaderboard" version="1.4.20407.2049" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <Startup>
+    <Task commandLine="DiagnosticsAgent.exe" taskType="background" relativePath="plugins\Diagnostics">
+      <Environment>
+        <Variable name="WaRoleType" value="WorkerRole" />
+      </Environment>
+    </Task>
+    <Task commandLine="DiagnosticsAgent.exe /blockStartup" relativePath="plugins\Diagnostics">
+      <Environment>
+        <Variable name="WaRoleType" value="WorkerRole" />
+      </Environment>
+    </Task>
+    <Task commandLine="RemoteAccessAgent.exe" executionContext="elevated" taskType="background" relativePath="plugins\RemoteAccess">
+      <Environment>
+        <Variable name="WaRoleType" value="WorkerRole" />
+      </Environment>
+    </Task>
+    <Task commandLine="RemoteAccessAgent.exe /blockStartup" executionContext="elevated" relativePath="plugins\RemoteAccess">
+      <Environment>
+        <Variable name="WaRoleType" value="WorkerRole" />
+      </Environment>
+    </Task>
+  </Startup>
+  <Runtime />
+  <ConfigurationSettings>
+    <Setting name="ConnectionString" nameSpace="Microsoft.WindowsAzure.Plugins.Diagnostics" />
+    <Setting name="Enabled" nameSpace="Microsoft.WindowsAzure.Plugins.RemoteAccess" />
+    <Setting name="AccountUsername" nameSpace="Microsoft.WindowsAzure.Plugins.RemoteAccess" />
+    <Setting name="AccountEncryptedPassword" nameSpace="Microsoft.WindowsAzure.Plugins.RemoteAccess" />
+    <Setting name="AccountExpiration" nameSpace="Microsoft.WindowsAzure.Plugins.RemoteAccess" />
+  </ConfigurationSettings>
+  <Properties>
+    <Property name="RoleType" value="Worker" />
+    <Property name="RoleName" value="Leaderboard" />
+    <Property name="ProjectName" value="Leaderboard" />
+    <Property name="Configuration" value="Debug" />
+    <Property name="Platform" value="AnyCPU" />
+    <Property name="SourceDir" value="" />
+    <Property name="SitePhysicalPath" value="" />
+    <Property name="OutputDir" value="C:\Users\Heng Teng\Desktop\Tiang\Dropbox\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\" />
+    <Property name="EntryPoint" value="WorkerRole1.dll" />
+    <Property name="RoleTargetFramework" value="v4.0" />
+    <Property name="OriginalItemSpec" value="C:\Users\Heng Teng\Desktop\Tiang\Dropbox\Convicts\Convicts For A Cause\WindowsAzureProject1\WindowsAzureProject1.ccproj" />
+    <Property name="MSBuildSourceProjectFile" value="C:\Users\Heng Teng\Desktop\Tiang\Dropbox\Convicts\Convicts For A Cause\WindowsAzureProject1\WindowsAzureProject1.ccproj" />
+    <Property name="MSBuildSourceTargetName" value="ResolveSingleWorkerRoleReference" />
+    <Property name="TargetFrameworkVersion" value="v4.0" />
+    <Property name="TargetRuntimeVersion" value="v4.0" />
+  </Properties>
+</RoleModel>
