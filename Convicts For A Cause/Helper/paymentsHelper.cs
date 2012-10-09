@@ -130,7 +130,7 @@ namespace Convicts_For_A_Cause
                     {
                         d.message = p.Convicts.Name + " has been jailed and fined $" + p.Payments.amount;
 
-                        returnStr += "{'date': '" + d.date + "','message': '" + d.message + "'},";
+                        returnStr += "{'date': '" + d.date + "','url': '" + p.Convicts.ProfileURL + "','message': '" + d.message + "'},";
                     }
                     else if (p.Payments.PaymentType == "general donation")
                     {
