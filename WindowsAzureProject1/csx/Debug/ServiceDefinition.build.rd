@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="eafbd1a4-0c82-4af9-9bfc-1df4f8d67734" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="59f90b15-b2c8-4c0f-8d87-427a380217b8" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureProject1Group" generation="1" functional="0" release="0">
       <componentports>
@@ -212,7 +212,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="Convicts For A Cause" generation="1" functional="0" release="0" software="\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Convicts For A Cause" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="768" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="Convicts For A Cause" generation="1" functional="0" release="0" software="C:\Temp\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Convicts For A Cause" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="768" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
               <inPort name="Endpoint2" protocol="https" portRanges="443">
@@ -269,7 +269,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="Leaderboard" generation="1" functional="0" release="0" software="\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Leaderboard" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="768" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="Leaderboard" generation="1" functional="0" release="0" software="C:\Temp\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Leaderboard" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="768" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp" portRanges="3389" />
               <outPort name="Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp">
@@ -321,19 +321,19 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="d1768ad5-8993-4946-84ea-63afbc2c6f99" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
+    <implementation Id="393bd34a-f905-4c77-af1b-0144615af3c8" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="ad9b5c58-8220-46d6-9dac-e466e40d3a68" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="fa6e5485-c7de-449e-8f7f-ab1c3443f42a" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="21f90d13-b8e2-494f-a8f5-fd8c317fa72f" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
+        <interfaceReference Id="795d2c87-11a9-4429-a17a-5f5dc62d0add" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint2" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="7ebc2c4e-5b54-4da8-b422-8a5728b8fc8f" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
+        <interfaceReference Id="30598e7f-5468-463c-9aba-d66eca43626b" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

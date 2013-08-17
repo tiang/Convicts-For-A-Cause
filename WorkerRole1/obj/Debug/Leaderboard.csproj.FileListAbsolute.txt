@@ -128,3 +128,28 @@ Z:\Documents\Convicts\Convicts\Convicts For A Cause\WorkerRole1\obj\Debug\Worker
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WorkerRole1\obj\Debug\Leaderboard.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.dll
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.pdb
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\WorkerRole1.dll.config
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\WorkerRole1.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\WorkerRole1.pdb
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Convicts For A Cause.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\EntityFramework.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.CSharp.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Data.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Data.Entity.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Runtime.Serialization.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Web.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Web.Services.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Xml.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\System.Xml.Linq.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\HtmlAgilityPack.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\EntityFramework.xml
+C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\Leaderboard.csprojResolveAssemblyReference.cache
+C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.dll
+C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.pdb

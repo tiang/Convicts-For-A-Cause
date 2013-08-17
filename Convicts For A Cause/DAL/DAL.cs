@@ -94,7 +94,8 @@ public class ConvictsContext : DbContext
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
     {
         //Disable EDM Data Table checking as we are not using CodeFirst anymore. 
-        modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
+       modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
+       
        
     }
 }

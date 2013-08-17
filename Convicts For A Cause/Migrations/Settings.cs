@@ -1,5 +1,4 @@
-using System.Data.Entity.Migrations;
-using System.Data.Entity.Migrations.Providers;
+
 using System.Data.SqlClient;
 
 namespace Convicts_For_A_Cause.Migrations

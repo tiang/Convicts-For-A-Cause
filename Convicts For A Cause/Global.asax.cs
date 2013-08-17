@@ -42,6 +42,7 @@ tiang@kaizenagency.com.au	Tiang Cheng		9122	9/2/2011 6:26:26 AM	9/2/2011 6:26:26
 
         protected void Application_Start(object sender, EventArgs e)
         {
+            Database.SetInitializer<ConvictsContext>(null);
            // Database.SetInitializer(new EntitiesContextInitializer());
           //  Database.SetInitializer<ConvictsContext>(null);
 

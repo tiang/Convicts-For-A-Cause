@@ -445,3 +445,57 @@ Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\bin\Deb
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\bin\Debug\ServiceConfiguration.cscfg
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\HtmlAgilityPack.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Microsoft.CSharp.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Configuration.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Data.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Drawing.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.EnterpriseServices.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.DynamicData.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Entity.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Services.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Global.asax
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\helloworld.aspx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\leaderboard.asmx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\packages.config
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\payment.asmx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\registration.asmx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testajax.asmx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testJSONValidation.asmx
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Web.config
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.CSharp.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.DataSetExtensions.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.Entity.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Runtime.Serialization.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.Services.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.Linq.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
+C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb

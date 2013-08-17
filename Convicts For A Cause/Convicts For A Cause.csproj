@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Convicts_For_A_Cause</RootNamespace>
     <AssemblyName>Convicts For A Cause</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <UseIISExpress>true</UseIISExpress>
     <FileUpgradeFlags>
@@ -47,8 +47,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.0.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
@@ -111,7 +110,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EntityFramework.Migrations.ReadMe.txt" />
     <Content Include="Global.asax" />
     <Content Include="helloworld.aspx" />
     <Content Include="leaderboard.asmx" />
@@ -119,6 +117,7 @@
     <Content Include="registration.asmx" />
     <Content Include="TestWS\testajax.asmx" />
     <Content Include="TestWS\testJSONValidation.asmx" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -171,31 +170,13 @@
       <DependentUpon>leaderboard.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Migrations\201110231752298_MyFirstCodeMigration.cs" />
-    <Compile Include="Migrations\201110231752298_MyFirstCodeMigration.Designer.cs">
-      <DependentUpon>201110231752298_MyFirstCodeMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201308150811581_InitialCreate.cs" />
+    <Compile Include="Migrations\201308150811581_InitialCreate.Designer.cs">
+      <DependentUpon>201308150811581_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201110241640322_AddTotalColumnConvicts.cs" />
-    <Compile Include="Migrations\201110241640322_AddTotalColumnConvicts.Designer.cs">
-      <DependentUpon>201110241640322_AddTotalColumnConvicts.cs</DependentUpon>
+    <Compile Include="Migrations\Configuration.cs">
+      <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Migrations\201111021200545_addTotalToTeams.cs" />
-    <Compile Include="Migrations\201111021200545_addTotalToTeams.Designer.cs">
-      <DependentUpon>201111021200545_addTotalToTeams.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201205121409195_AddAnonymousColumn.cs" />
-    <Compile Include="Migrations\201205121409195_AddAnonymousColumn.Designer.cs">
-      <DependentUpon>201205121409195_AddAnonymousColumn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201206110735313_addTransactionIDtoPaymentRecords.cs" />
-    <Compile Include="Migrations\201206110735313_addTransactionIDtoPaymentRecords.Designer.cs">
-      <DependentUpon>201206110735313_addTransactionIDtoPaymentRecords.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201206110801039_addInvoiceIDtoPaymentRecords.cs" />
-    <Compile Include="Migrations\201206110801039_addInvoiceIDtoPaymentRecords.Designer.cs">
-      <DependentUpon>201206110801039_addInvoiceIDtoPaymentRecords.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Settings.cs" />
     <Compile Include="payment.asmx.cs">
       <DependentUpon>payment.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -250,6 +231,11 @@
       <Project>{0c40e6a2-62ff-4ca1-98a8-83241f410c6a}</Project>
       <Name>ContentTypeHttpModule</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201308150811581_InitialCreate.resx">
+      <DependentUpon>201308150811581_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -161,3 +161,32 @@ Z:\Documents\Convicts\Convicts\Convicts For A Cause\Convicts For A Cause\obj\Deb
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csprojResolveAssemblyReference.cache
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.dll
 \\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csprojResolveAssemblyReference.cache
+C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Convicts For A Cause.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Convicts For A Cause.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Jayrock.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Jayrock.Json.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Microsoft.CSharp.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Configuration.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Data.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Drawing.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.EnterpriseServices.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.ServiceModel.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Web.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Web.DynamicData.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Web.Entity.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Web.Services.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\System.Xml.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Jayrock.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\Jayrock.Json.pdb
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\EntityFramework.dll
+C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\EntityFramework.xml
+C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts_For_A_Cause.Migrations.InitialCreate.resources
+C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csproj.GenerateResource.Cache

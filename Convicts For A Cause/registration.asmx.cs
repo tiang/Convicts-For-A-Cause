@@ -55,8 +55,8 @@ namespace Convicts_For_A_Cause
 
             try
             {
-                
-                //BCWebApp.createConvict(email, password, name, convictCode);
+                convictsHelper.registerConvict(email, name);
+                BCWebApp.createConvict(email, password, name, convictCode);
                 convictsHelper.registerTeam(teamCode, teamName, teamType);
                 BCWebApp.createTeam(email, password, teamName, teamCode, teamType);
             }
@@ -100,7 +100,7 @@ namespace Convicts_For_A_Cause
 
         }
 
-
+        [Obsolete]
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
         public string RegisterRotaryTeamLeader(string email, string name, Double amount, string registrationType)
