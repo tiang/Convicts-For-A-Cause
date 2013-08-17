@@ -11,7 +11,7 @@
     </Sites>
     <Endpoints>
       <InputEndpoint name="Endpoint1" protocol="http" port="80" />
-      <InputEndpoint name="Endpoint2" protocol="https" port="443" certificate="azure.convictsforacause.org.au" />
+      <InputEndpoint name="Endpoint2" protocol="https" port="443" certificate="Azure.2013.CFAC.org.au" />
     </Endpoints>
     <Imports>
       <Import moduleName="Diagnostics" />
@@ -19,7 +19,7 @@
       <Import moduleName="RemoteForwarder" />
     </Imports>
     <Certificates>
-      <Certificate name="azure.convictsforacause.org.au" storeLocation="LocalMachine" storeName="My" />
+      <Certificate name="Azure.2013.CFAC.org.au" storeLocation="LocalMachine" storeName="My" />
     </Certificates>
   </WebRole>
   <WorkerRole name="Leaderboard" vmsize="ExtraSmall">

@@ -494,7 +494,7 @@ namespace Convicts_For_A_Cause
         private static bool CheckExistingPaymentRecord(List<PaymentRecord> allPayments, convictsforacauseWS.OrderDetails orderDetail)
         {
 
-            return allPayments.Find(p => p.TransactionID == orderDetail.entityId) != null && allPayments.Find(p => p.InvoiceID == orderDetail.invoiceNumber) != null;
+            return allPayments.Find(p => p.TransactionID == orderDetail.entityId) != null || allPayments.Find(p => p.InvoiceID == orderDetail.invoiceNumber) != null;
         }
 
         /// <summary>

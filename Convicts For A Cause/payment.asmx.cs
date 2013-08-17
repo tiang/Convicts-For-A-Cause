@@ -84,9 +84,9 @@ namespace Convicts_For_A_Cause
 
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
-        public string addPayment(string senderEmail, string receipentEmail, Double amount, string message, string paymentType)
+        public string addPayment(string senderEmail, string receipentEmail, string donorName, Double amount, string message, string paymentType, bool isAnonymous)
         {
-            PaymentDTO paymentresults = paymentsHelper.AddPayment(senderEmail, receipentEmail, amount, message, paymentType, false, DateTime.Now,0,0);
+            PaymentDTO paymentresults = paymentsHelper.AddPayment(senderEmail, donorName, receipentEmail, amount, message, paymentType, isAnonymous, DateTime.Now, 0, 0);
 
             JavaScriptSerializer js = new JavaScriptSerializer();
 

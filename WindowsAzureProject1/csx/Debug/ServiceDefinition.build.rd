@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="137e8a25-85d4-4699-ab10-a6db3420a0ad" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="eafbd1a4-0c82-4af9-9bfc-1df4f8d67734" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureProject1Group" generation="1" functional="0" release="0">
       <componentports>
@@ -20,9 +20,9 @@
         </inPort>
       </componentports>
       <settings>
-        <aCS name="Certificate|Convicts For A Cause:azure.convictsforacause.org.au" defaultValue="">
+        <aCS name="Certificate|Convicts For A Cause:Azure.2013.CFAC.org.au" defaultValue="">
           <maps>
-            <mapMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/MapCertificate|Convicts For A Cause:azure.convictsforacause.org.au" />
+            <mapMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/MapCertificate|Convicts For A Cause:Azure.2013.CFAC.org.au" />
           </maps>
         </aCS>
         <aCS name="Certificate|Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" defaultValue="">
@@ -129,9 +129,9 @@
         </sFSwitchChannel>
       </channels>
       <maps>
-        <map name="MapCertificate|Convicts For A Cause:azure.convictsforacause.org.au" kind="Identity">
+        <map name="MapCertificate|Convicts For A Cause:Azure.2013.CFAC.org.au" kind="Identity">
           <certificate>
-            <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/azure.convictsforacause.org.au" />
+            <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/Azure.2013.CFAC.org.au" />
           </certificate>
         </map>
         <map name="MapCertificate|Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" kind="Identity">
@@ -212,12 +212,12 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="Convicts For A Cause" generation="1" functional="0" release="0" software="Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Convicts For A Cause" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="768" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
+          <role name="Convicts For A Cause" generation="1" functional="0" release="0" software="\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Convicts For A Cause" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaIISHost.exe " memIndex="768" hostingEnvironment="frontendadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Endpoint1" protocol="http" portRanges="80" />
               <inPort name="Endpoint2" protocol="https" portRanges="443">
                 <certificate>
-                  <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/azure.convictsforacause.org.au" />
+                  <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/Azure.2013.CFAC.org.au" />
                 </certificate>
               </inPort>
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" protocol="tcp" />
@@ -247,9 +247,9 @@
               <resourceReference name="EventStore" defaultAmount="[1000,1000,1000]" defaultSticky="false" kind="LogStore" />
             </resourcereferences>
             <storedcertificates>
-              <storedCertificate name="Stored0azure.convictsforacause.org.au" certificateStore="My" certificateLocation="System">
+              <storedCertificate name="Stored0Azure.2013.CFAC.org.au" certificateStore="My" certificateLocation="System">
                 <certificate>
-                  <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/azure.convictsforacause.org.au" />
+                  <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/Azure.2013.CFAC.org.au" />
                 </certificate>
               </storedCertificate>
               <storedCertificate name="Stored1Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" certificateStore="My" certificateLocation="System">
@@ -259,7 +259,7 @@
               </storedCertificate>
             </storedcertificates>
             <certificates>
-              <certificate name="azure.convictsforacause.org.au" />
+              <certificate name="Azure.2013.CFAC.org.au" />
               <certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" />
             </certificates>
           </role>
@@ -269,7 +269,7 @@
           </sCSPolicy>
         </groupHascomponents>
         <groupHascomponents>
-          <role name="Leaderboard" generation="1" functional="0" release="0" software="Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Leaderboard" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="768" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="Leaderboard" generation="1" functional="0" release="0" software="\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\csx\Debug\roles\Leaderboard" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="768" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp" portRanges="3389" />
               <outPort name="Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.Rdp" protocol="tcp">
@@ -321,19 +321,19 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="f018b27c-ef38-46c1-b1b3-a13e591bdb26" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
+    <implementation Id="d1768ad5-8993-4946-84ea-63afbc2c6f99" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="b7b3dd4c-efcb-4833-aef3-2148a9aa8b31" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="ad9b5c58-8220-46d6-9dac-e466e40d3a68" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="b24cb21b-94fb-40f3-bcb4-a701ed7ab823" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
+        <interfaceReference Id="21f90d13-b8e2-494f-a8f5-fd8c317fa72f" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint2" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="e4f672ea-6cbc-4382-a790-224cc50eb7e6" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
+        <interfaceReference Id="7ebc2c4e-5b54-4da8-b422-8a5728b8fc8f" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

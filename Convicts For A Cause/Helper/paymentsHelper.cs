@@ -191,6 +191,46 @@ namespace Convicts_For_A_Cause
             return returnobj;
         }
 
+        public static PaymentDTO AddPayment(string PaymentEmail, string DonorName, string ReceipientEmail, Double amount, string message, string paymentType, Boolean anonymous, DateTime paymentDate, int transactionID, int invoiceID)
+        {
+
+            ConvictsContext db = new ConvictsContext();
+
+            PaymentRecord payment = new PaymentRecord();
+            payment.PayerEmail = PaymentEmail;
+            payment.DonorName = DonorName;
+            payment.amount = amount;
+            payment.TeamCode = Helper.getTeamCode(ReceipientEmail);
+            payment.ConvictEmail = ReceipientEmail;
+            payment.PaymentType = paymentType;
+            payment.Message = message;
+            payment.CreateDate = paymentDate;
+            payment.Anonymous = anonymous;
+            payment.TransactionID = transactionID;
+            payment.InvoiceID = invoiceID;
+            string returnStatus = "false";
+            string errorMessage = "";
+
+            try
+            {
+                db.Payments.Add(payment);
+                db.SaveChanges();
+                returnStatus = "true";
+
+            }
+            catch (Exception ex)
+            {
+                returnStatus = "false";
+                errorMessage = ex.Message;
+            }
+
+            PaymentDTO returnobj = new PaymentDTO();
+            returnobj.status = returnStatus;
+            returnobj.errorMessage = errorMessage;
+
+            return returnobj;
+        }
+
         public static string getConvictTotal(string email)
         {
             string returnValue = "0";
@@ -205,8 +245,7 @@ namespace Convicts_For_A_Cause
 
             if (found.Count() == 0)
             {
-                returnValue = "0";
-            
+                returnValue = "0";  
             }
             else
             {
@@ -237,7 +276,6 @@ namespace Convicts_For_A_Cause
             if (found.Count() == 0)
             {
                 returnStr =  "{'status':'false'}";
-
             }
             else
             {
@@ -353,6 +391,9 @@ namespace Convicts_For_A_Cause
                     if (string.IsNullOrEmpty(p.DonorName))
                         continue;
 
+                    if (p.Anonymous)
+                        p.DonorName = "Anonymous";
+
                     DonationMessage d = new DonationMessage();
                     d.date = "" + p.CreateDate.ToShortDateString() + " " + p.CreateDate.ToShortTimeString();
 
@@ -447,8 +488,7 @@ namespace Convicts_For_A_Cause
 
             returnStr += ", 'convicts': [ ";
 
-            ConvictsContext db = new ConvictsContext();
-            
+            ConvictsContext db = new ConvictsContext();    
 
             var found = (from convicts in db.Convicts.ToList()
                          where convicts.TeamType == null 

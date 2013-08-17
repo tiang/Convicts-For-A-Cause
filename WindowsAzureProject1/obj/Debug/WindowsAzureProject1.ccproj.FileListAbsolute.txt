@@ -389,58 +389,59 @@ C:\Users\Public\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzurePro
 C:\Users\Public\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
 C:\Users\Public\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
 Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\bin\Debug\ServiceConfiguration.cscfg
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.pdb
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.Migrations.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\HtmlAgilityPack.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.pdb
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.pdb
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Microsoft.CSharp.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Configuration.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Data.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Drawing.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.EnterpriseServices.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Runtime.Serialization.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.Web.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.DynamicData.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Entity.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Services.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Global.asax
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\helloworld.aspx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\leaderboard.asmx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\packages.config
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\payment.asmx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\registration.asmx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testajax.asmx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testJSONValidation.asmx
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Web.config
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.Migrations.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.CSharp.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.DataSetExtensions.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.Entity.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Runtime.Serialization.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.Services.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.Linq.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
-Z:\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\bin\Debug\ServiceConfiguration.cscfg
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.Migrations.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Configuration.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Data.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Drawing.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.EnterpriseServices.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.DynamicData.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Entity.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Global.asax
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\helloworld.aspx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\leaderboard.asmx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\packages.config
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\payment.asmx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\registration.asmx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testajax.asmx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testJSONValidation.asmx
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Web.config
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.Migrations.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.DataSetExtensions.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.Entity.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.Linq.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
+\\vmware-host\Shared Folders\Documents\Convicts\Convicts\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
