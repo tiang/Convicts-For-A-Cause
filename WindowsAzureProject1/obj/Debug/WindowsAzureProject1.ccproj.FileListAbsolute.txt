@@ -499,3 +499,55 @@ C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.X
 C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
 C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
 C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\bin\Debug\ServiceConfiguration.cscfg
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.Migrations.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\new\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\new\EntityFramework.Migrations.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\new\EntityFramework.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Configuration.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Data.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Drawing.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.EnterpriseServices.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.DynamicData.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Entity.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\tmp\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\tmp\EntityFramework.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.DataSetExtensions.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.Entity.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.Linq.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb

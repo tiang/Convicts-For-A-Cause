@@ -153,3 +153,28 @@ C:\Temp\Convicts For A Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagno
 C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\Leaderboard.csprojResolveAssemblyReference.cache
 C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.dll
 C:\Temp\Convicts For A Cause\WorkerRole1\obj\Debug\WorkerRole1.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\WorkerRole1.dll.config
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\WorkerRole1.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\WorkerRole1.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Data.DataSetExtensions.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Data.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Data.Entity.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Xml.Linq.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\EntityFramework.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\obj\Debug\Leaderboard.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\obj\Debug\WorkerRole1.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WorkerRole1\obj\Debug\WorkerRole1.pdb

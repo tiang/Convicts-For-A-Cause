@@ -26,6 +26,9 @@ namespace Convicts_For_A_Cause
         [WebMethod]
         public string HelloWorld()
         {
+
+            Helper h = new Helper();
+            h.CalculateTeamTotals();
             return "Hello World";
         }
 

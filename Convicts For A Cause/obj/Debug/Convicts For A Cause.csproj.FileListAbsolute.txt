@@ -190,3 +190,32 @@ C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\EntityFramework.dll
 C:\Temp\Convicts For A Cause\Convicts For A Cause\bin\EntityFramework.xml
 C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts_For_A_Cause.Migrations.InitialCreate.resources
 C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.Json.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Microsoft.CSharp.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Configuration.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Data.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Drawing.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.EnterpriseServices.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.ServiceModel.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.DynamicData.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.Entity.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.Services.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Xml.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\EntityFramework.xml
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.Json.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts_For_A_Cause.Migrations.InitialCreate.resources
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.pdb
