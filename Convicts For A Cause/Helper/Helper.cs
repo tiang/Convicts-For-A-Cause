@@ -249,14 +249,21 @@ namespace Convicts_For_A_Cause
       
             foreach (var team in found)
             {
+                try
+                {
+                    ConvictsContext db1 = new ConvictsContext();
+                    var total = (from payments in db1.Payments
+                                 where payments.TeamCode == team.TeamCode
+                                 select payments.amount).Sum();
 
-                ConvictsContext db1 = new ConvictsContext();
-                var total = (from payments in db1.Payments
-                             where payments.TeamCode == team.TeamCode 
-                             select payments.amount).Sum();
-
-                team.Total = total.ToString();
-                db.Entry(team).CurrentValues.SetValues(team);
+                    team.Total = total.ToString();
+                    db.Entry(team).CurrentValues.SetValues(team);
+                }
+                catch (Exception ex)
+                {
+                   
+                }
+                
                 
             }
             db.SaveChanges();
