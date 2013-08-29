@@ -9,6 +9,7 @@ using Microsoft.WindowsAzure.Diagnostics;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using Microsoft.WindowsAzure.StorageClient;
 using Convicts_For_A_Cause;
+using System.Data.Entity;
 namespace Leaderboard
 {
     public class WorkerRole : RoleEntryPoint
@@ -17,6 +18,9 @@ namespace Leaderboard
         {
             // This is a sample worker implementation. Replace with your logic.
             Trace.WriteLine("WorkerRole1 entry point called", "Information");
+
+            // Disables EntityFramework Code First checks
+            Database.SetInitializer<ConvictsContext>(null);
 
             while (true)
             {
@@ -40,7 +44,7 @@ namespace Leaderboard
                     Console.Write(ex.Message.ToString()); 
                     //throw; 
                 }
-
+                System.Threading.Thread.Sleep(1000 * 60);
             }
         }
 
