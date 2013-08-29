@@ -31,3 +31,7 @@ C:\Temp\Convicts For A Cause\Convicts For A Cause\ContentTypeHttpModule\bin\Debu
 C:\Temp\Convicts For A Cause\Convicts For A Cause\ContentTypeHttpModule\bin\Debug\ContentTypeHttpModule.pdb
 C:\Temp\Convicts For A Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.dll
 C:\Temp\Convicts For A Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\bin\Debug\ContentTypeHttpModule.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\bin\Debug\ContentTypeHttpModule.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.pdb

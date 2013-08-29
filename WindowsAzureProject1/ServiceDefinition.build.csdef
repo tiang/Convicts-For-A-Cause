@@ -36,5 +36,8 @@
       <Import moduleName="Diagnostics" />
       <Import moduleName="RemoteAccess" />
     </Imports>
+    <Certificates>
+      <Certificate name="Azure.2013.CFAC.org.au" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
   </WorkerRole>
 </ServiceDefinition>

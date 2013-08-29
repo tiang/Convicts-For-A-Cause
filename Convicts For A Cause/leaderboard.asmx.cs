@@ -28,7 +28,14 @@ namespace Convicts_For_A_Cause
         {
 
             Helper h = new Helper();
+            h.CalculateConvictTotals();
+            h.getDonorNames();
+            h.getPaymentRecords();
+            h.SanitiseDatabaseQuotes();
+            h.getConvictURLS();
+            h.getTeamURLS();
             h.CalculateTeamTotals();
+            h.addTeamCodeToPaymentRecords();
             return "Hello World";
         }
 

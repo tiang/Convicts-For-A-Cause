@@ -531,11 +531,6 @@ C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRo
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\tmp\EntityFramework.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\tmp\EntityFramework.xml
-\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
-\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
-\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
-\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
-\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.CSharp.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
@@ -551,3 +546,37 @@ C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRo
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.Data.Edm.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.Data.OData.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Spatial.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\System.Spatial.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.Edm.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.OData.resources.dll
+\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\System.Spatial.resources.dll

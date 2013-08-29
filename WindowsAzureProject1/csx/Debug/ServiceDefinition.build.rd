@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="638a67c4-4ef4-48f8-bc1f-6dc33c5dbfd2" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="WindowsAzureProject1" generation="1" functional="0" release="0" Id="f9dab60c-b753-41f1-af99-6972822bada5" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="WindowsAzureProject1Group" generation="1" functional="0" release="0">
       <componentports>
@@ -28,6 +28,11 @@
         <aCS name="Certificate|Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" defaultValue="">
           <maps>
             <mapMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/MapCertificate|Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" />
+          </maps>
+        </aCS>
+        <aCS name="Certificate|Leaderboard:Azure.2013.CFAC.org.au" defaultValue="">
+          <maps>
+            <mapMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/MapCertificate|Leaderboard:Azure.2013.CFAC.org.au" />
           </maps>
         </aCS>
         <aCS name="Certificate|Leaderboard:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" defaultValue="">
@@ -137,6 +142,11 @@
         <map name="MapCertificate|Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" kind="Identity">
           <certificate>
             <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause/Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" />
+          </certificate>
+        </map>
+        <map name="MapCertificate|Leaderboard:Azure.2013.CFAC.org.au" kind="Identity">
+          <certificate>
+            <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Leaderboard/Azure.2013.CFAC.org.au" />
           </certificate>
         </map>
         <map name="MapCertificate|Leaderboard:Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" kind="Identity">
@@ -296,13 +306,19 @@
               <resourceReference name="EventStore" defaultAmount="[1000,1000,1000]" defaultSticky="false" kind="LogStore" />
             </resourcereferences>
             <storedcertificates>
-              <storedCertificate name="Stored0Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" certificateStore="My" certificateLocation="System">
+              <storedCertificate name="Stored0Azure.2013.CFAC.org.au" certificateStore="My" certificateLocation="System">
+                <certificate>
+                  <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Leaderboard/Azure.2013.CFAC.org.au" />
+                </certificate>
+              </storedCertificate>
+              <storedCertificate name="Stored1Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" certificateStore="My" certificateLocation="System">
                 <certificate>
                   <certificateMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Leaderboard/Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" />
                 </certificate>
               </storedCertificate>
             </storedcertificates>
             <certificates>
+              <certificate name="Azure.2013.CFAC.org.au" />
               <certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" />
             </certificates>
           </role>
@@ -321,19 +337,19 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="00a7a467-b5a2-41b9-b82c-14c1d24e680f" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
+    <implementation Id="e236faae-92d9-4df8-93c7-f1c1d5637929" ref="Microsoft.RedDog.Contract\ServiceContract\WindowsAzureProject1Contract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="b62973b8-a9a9-4d6f-bc2b-cf576ab3d67d" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="299ce11e-eacf-47d0-8df5-ad441fa17386" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="55d89206-7c16-42de-bb7e-4aa1714c6246" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
+        <interfaceReference Id="935e1b13-573a-450c-82b5-a7db123974a6" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Endpoint2@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Endpoint2" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="9f92c54e-1dcd-4bea-87a8-37fa73f3d9e6" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
+        <interfaceReference Id="189cf2ba-eed6-4fbb-90d6-7a7a6c2d4870" ref="Microsoft.RedDog.Contract\Interface\Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/WindowsAzureProject1/WindowsAzureProject1Group/Convicts For A Cause:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

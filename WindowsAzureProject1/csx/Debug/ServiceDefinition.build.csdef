@@ -42,6 +42,7 @@
       </InternalEndpoint>
     </Endpoints>
     <Certificates>
+      <Certificate name="Azure.2013.CFAC.org.au" storeLocation="LocalMachine" storeName="My" />
       <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" storeLocation="LocalMachine" storeName="My" />
     </Certificates>
   </WorkerRole>

@@ -214,10 +214,10 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="https://convictsforacause.worldsecuresystems.com/CatalystWebService/CatalystCRMWebservice.asmx%3fop=Contact_RetrieveByEmailAddress">
+    <WebReferenceUrl Include="https://convictsforacause.worldsecuresystems.com/CatalystWebService/CatalystCRMWebservice.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\convictsforacauseWS\</RelPath>
-      <UpdateFromURL>https://convictsforacause.worldsecuresystems.com/CatalystWebService/CatalystCRMWebservice.asmx%3fop=Contact_RetrieveByEmailAddress</UpdateFromURL>
+      <UpdateFromURL>https://convictsforacause.worldsecuresystems.com/CatalystWebService/CatalystCRMWebservice.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
@@ -236,6 +236,9 @@
     <EmbeddedResource Include="Migrations\201308150811581_InitialCreate.resx">
       <DependentUpon>201308150811581_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

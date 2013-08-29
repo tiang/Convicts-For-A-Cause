@@ -1,5 +1,0 @@
-C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WcfService1\bin\WcfService1.dll
-C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WcfService1\bin\WcfService1.pdb
-C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WcfService1\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WcfService1\obj\Debug\WcfService1.dll
-C:\Users\Heng Teng\documents\visual studio 2010\Projects\Convicts For A Cause\WcfService1\obj\Debug\WcfService1.pdb
