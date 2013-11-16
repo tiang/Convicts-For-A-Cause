@@ -70,7 +70,7 @@ namespace Convicts_For_A_Cause
         {
             // check if team code already exists
             ConvictsContext db = new ConvictsContext();
-            string sqlCommand = "update paymentrecords set message=replace(message,'''','&quot;')";
+            string sqlCommand = "update paymentrecords set message=replace(message,'''','&quot;'), DonorName=replace(DonorName,'''','&quot;')";
             db.Database.ExecuteSqlCommand(sqlCommand);
         }
 

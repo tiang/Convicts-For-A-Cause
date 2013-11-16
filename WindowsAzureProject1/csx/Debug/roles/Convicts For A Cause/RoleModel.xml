@@ -59,11 +59,11 @@
     <Property name="OutputDir" value="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\" />
     <Property name="EntryPoint" value="Convicts For A Cause.dll" />
     <Property name="SourceDir" value="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\" />
-    <Property name="SitePhysicalPath" value="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\" />
+    <Property name="SitePhysicalPath" value="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\">
+    <Site name="Web" physicalDirectory="\\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
         <Binding name="Endpoint2" endpointName="Endpoint2" />

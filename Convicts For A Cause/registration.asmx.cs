@@ -168,6 +168,43 @@ namespace Convicts_For_A_Cause
         }
 
 
+        [WebMethod]
+        [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
+        public string getTeamCodeList()
+        {
+            JavaScriptSerializer js = new JavaScriptSerializer();
+            string strJSON = "";
+            List<Team> found = db.Teams.ToList();
+
+            if (found == null)
+            {
+                strJSON = js.Serialize("{'teamcode':'0', 'teamName': '" + "'}");
+            }
+            else
+            {
+                // ToDo: FOR EACH
+             
+            string results = "{'convicts': [";
+
+            if (found.Count() == 0)
+            {
+                strJSON = js.Serialize("{'teamcode':'0', 'name': ''}");
+            }
+            else
+            {
+                foreach (Team t in found)
+                {
+                    results += "{'teamcode':'" + t.TeamCode + "', 'teamName': '" + t.TeamName + "'},";
+                }
+               results = results.Remove(results.Length - 1, 1);  // remove the last comma from the string
+            }
+            results += "]}";         
+                strJSON = js.Serialize(results);
+            }
+
+            return strJSON;
+
+        }
 
         [WebMethod]
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
