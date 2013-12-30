@@ -1,0 +1,2 @@
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\bin\Debug\LSResourceGeneratorsTask.mcs
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\bin\Debug\LSClientCodeGeneratorsTask.mcs

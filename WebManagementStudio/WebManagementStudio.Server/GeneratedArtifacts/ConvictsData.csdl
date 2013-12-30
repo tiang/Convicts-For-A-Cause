@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" Namespace="LightSwitchApplication" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityType Name="Convict">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="Edm.String" Nullable="false" MaxLength="128" />
+    <Property Name="ConvictCode" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="Name" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="ProfileURL" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamCode" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamType" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="CreateDate" Type="Edm.DateTime" Nullable="false" Precision="3" ConcurrencyMode="Fixed" />
+    <Property Name="ModifiedDate" Type="Edm.DateTime" Nullable="false" Precision="3" ConcurrencyMode="Fixed" />
+    <Property Name="Total" Type="Edm.String" Nullable="false" MaxLength="Max" ConcurrencyMode="Fixed" />
+  </EntityType>
+  <EntityType Name="Leaderboard">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Edm.Int32" Nullable="false" />
+    <Property Name="ConvictCode" Type="Edm.Int32" ConcurrencyMode="Fixed" />
+    <Property Name="TeamCode" Type="Edm.Int32" ConcurrencyMode="Fixed" />
+    <Property Name="Total" Type="Edm.Int32" ConcurrencyMode="Fixed" />
+    <Property Name="ConvictName" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamName" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="RegistrationType" Type="Edm.String" MaxLength="50" ConcurrencyMode="Fixed" />
+    <Property Name="TeamType" Type="Edm.String" MaxLength="50" ConcurrencyMode="Fixed" />
+  </EntityType>
+  <EntityType Name="PaymentRecord">
+    <Key>
+      <PropertyRef Name="paymentID" />
+    </Key>
+    <Property Name="paymentID" Type="Edm.Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PayerEmail" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="amount" Type="Edm.Double" Nullable="false" />
+    <Property Name="ConvictEmail" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamCode" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="PaymentType" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="CreateDate" Type="Edm.DateTime" Nullable="false" Precision="3" ConcurrencyMode="Fixed" />
+    <Property Name="Message" Type="Edm.String" Nullable="false" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="DonorName" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="Anonymous" Type="Edm.Boolean" Nullable="false" ConcurrencyMode="Fixed" />
+    <Property Name="TransactionID" Type="Edm.Int32" Nullable="false" ConcurrencyMode="Fixed" />
+    <Property Name="InvoiceID" Type="Edm.Int32" Nullable="false" ConcurrencyMode="Fixed" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="TeamCode" />
+    </Key>
+    <Property Name="TeamCode" Type="Edm.String" Nullable="false" MaxLength="128" />
+    <Property Name="TeamName" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamURL" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="TeamType" Type="Edm.String" MaxLength="Max" ConcurrencyMode="Fixed" />
+    <Property Name="CreateDate" Type="Edm.DateTime" Nullable="false" Precision="3" ConcurrencyMode="Fixed" />
+    <Property Name="ModifiedDate" Type="Edm.DateTime" Nullable="false" Precision="3" ConcurrencyMode="Fixed" />
+    <Property Name="Total" Type="Edm.String" Nullable="false" MaxLength="Max" ConcurrencyMode="Fixed" />
+  </EntityType>
+  <EntityContainer Name="ConvictsData" m:IsDefaultEntityContainer="true">
+    <EntitySet Name="Convicts" EntityType="LightSwitchApplication.Convict" />
+    <EntitySet Name="Leaderboards" EntityType="LightSwitchApplication.Leaderboard" />
+    <EntitySet Name="PaymentRecords" EntityType="LightSwitchApplication.PaymentRecord" />
+    <EntitySet Name="Teams" EntityType="LightSwitchApplication.Team" />
+  </EntityContainer>
+</Schema>

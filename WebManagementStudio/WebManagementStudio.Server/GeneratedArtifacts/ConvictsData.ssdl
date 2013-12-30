@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ConvictsDataStore" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ConvictsDataStore">
+    <EntitySet Name="Convicts" EntityType="ConvictsDataStore.Convict" store:Type="Tables" Schema="dbo" Table="Convicts" />
+    <EntitySet Name="Leaderboards" EntityType="ConvictsDataStore.Leaderboard" store:Type="Tables" Schema="dbo" Table="Leaderboards" />
+    <EntitySet Name="PaymentRecords" EntityType="ConvictsDataStore.PaymentRecord" store:Type="Tables" Schema="dbo" Table="PaymentRecords" />
+    <EntitySet Name="Teams" EntityType="ConvictsDataStore.Team" store:Type="Tables" Schema="dbo" Table="Teams" />
+  </EntityContainer>
+  <EntityType Name="Convict">
+    <Key>
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="Email" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="ConvictCode" Type="nvarchar(max)" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="ProfileURL" Type="nvarchar(max)" />
+    <Property Name="TeamCode" Type="nvarchar(max)" />
+    <Property Name="TeamType" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Total" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Leaderboard">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ConvictCode" Type="int" />
+    <Property Name="TeamCode" Type="int" />
+    <Property Name="Total" Type="int" />
+    <Property Name="ConvictName" Type="nvarchar(max)" />
+    <Property Name="TeamName" Type="nvarchar(max)" />
+    <Property Name="RegistrationType" Type="nvarchar" MaxLength="50" />
+    <Property Name="TeamType" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="PaymentRecord">
+    <Key>
+      <PropertyRef Name="paymentID" />
+    </Key>
+    <Property Name="paymentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PayerEmail" Type="nvarchar(max)" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="ConvictEmail" Type="nvarchar(max)" />
+    <Property Name="TeamCode" Type="nvarchar(max)" />
+    <Property Name="PaymentType" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="Message" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DonorName" Type="nvarchar(max)" />
+    <Property Name="Anonymous" Type="bit" Nullable="false" />
+    <Property Name="TransactionID" Type="int" Nullable="false" />
+    <Property Name="InvoiceID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="TeamCode" />
+    </Key>
+    <Property Name="TeamCode" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="TeamName" Type="nvarchar(max)" />
+    <Property Name="TeamURL" Type="nvarchar(max)" />
+    <Property Name="TeamType" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
+    <Property Name="Total" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+</Schema>
