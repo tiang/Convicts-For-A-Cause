@@ -80,3 +80,7 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\Scr
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\Scripts\Generated\resources.js
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\Content\Resources\Generated\model.json
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\Content\Resources\msls.lang-en-us.resjson
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\Scripts\utilities.js
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\UserCode\AddEditPaymentRecord.js
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\bin\MetroThemeExtension.Common.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\HTMLClient\UserCode\BrowsePaymentRecords.js

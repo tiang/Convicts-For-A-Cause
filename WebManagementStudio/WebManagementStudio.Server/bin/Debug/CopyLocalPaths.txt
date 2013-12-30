@@ -1,3 +1,4 @@
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\_Pvt_Extensions\MetroThemeExtension\Server\Reference\MetroThemeExtension.Common.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v3.0\\Server\Microsoft.Data.Edm.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v3.0\\Server\Microsoft.Data.OData.dll
 C:\Program Files (x86)\Microsoft SDKs\LightSwitch\v3.0\\Server\Microsoft.Data.Services.Client.dll

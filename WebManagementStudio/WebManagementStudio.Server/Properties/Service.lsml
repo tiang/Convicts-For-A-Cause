@@ -78,6 +78,18 @@
         PropertyType=":String?">
         <EntityProperty.Attributes>
           <MaxLength />
+          <SupportedValue
+            DisplayName="Personal Team Leader"
+            Value="personal" />
+          <SupportedValue
+            DisplayName="Rotary Team Leader"
+            Value="rotary" />
+          <SupportedValue
+            DisplayName="Business Team Leader"
+            Value="business" />
+          <SupportedValue
+            DisplayName="Team Member"
+            Value="team member" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -239,6 +251,30 @@
         PropertyType=":String?">
         <EntityProperty.Attributes>
           <MaxLength />
+          <SupportedValue
+            DisplayName="Cash"
+            Value="cash" />
+          <SupportedValue
+            DisplayName="Team Registration"
+            Value="team registration" />
+          <SupportedValue
+            DisplayName="Convict Registration"
+            Value="convict registration" />
+          <SupportedValue
+            DisplayName="Event Ticket"
+            Value="event ticket" />
+          <SupportedValue
+            DisplayName="General Donation"
+            Value="general donation" />
+          <SupportedValue
+            DisplayName="Convict Donation"
+            Value="convict donation" />
+          <SupportedValue
+            DisplayName="Team Member Registration"
+            Value="team member registration" />
+          <SupportedValue
+            DisplayName="Duplicate Donation"
+            Value="duplicate donation" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -332,6 +368,15 @@
         PropertyType=":String?">
         <EntityProperty.Attributes>
           <MaxLength />
+          <SupportedValue
+            DisplayName="Business Team"
+            Value="business" />
+          <SupportedValue
+            DisplayName="Personal Team"
+            Value="personal" />
+          <SupportedValue
+            DisplayName="Rotary Team"
+            Value="rotary" />
         </EntityProperty.Attributes>
       </EntityProperty>
       <EntityProperty
@@ -362,6 +407,7 @@
         <EntityProperty.Attributes>
           <Required />
           <MaxLength />
+          <AllowEmptyString />
         </EntityProperty.Attributes>
       </EntityProperty>
     </EntityType.Properties>

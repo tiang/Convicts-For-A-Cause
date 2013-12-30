@@ -18,14 +18,45 @@
     <GenerateManifests>true</GenerateManifests>
     <SignManifests>false</SignManifests>
     <BaseIntermediateOutputPath>bin</BaseIntermediateOutputPath>
-    <ApplicationClientType>Desktop</ApplicationClientType>
-    <ApplicationServerType>LocalHost</ApplicationServerType>
+    <ApplicationClientType>Browser</ApplicationClientType>
+    <ApplicationServerType>Azure</ApplicationServerType>
     <AuthenticationType>None</AuthenticationType>
     <ApplicationName>WebManagementStudio</ApplicationName>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
     <ServiceDefinitionFile>ServiceDefinition.csdef</ServiceDefinitionFile>
     <ServiceConfigurationFile>ServiceConfiguration.cscfg</ServiceConfigurationFile>
     <SqlExpressInstanceName>(LocalDB)\v11.0</SqlExpressInstanceName>
+    <DebugSharePointAuthenticationType>AccessControlService</DebugSharePointAuthenticationType>
+    <AdministratorFullName />
+    <AdministratorUserName />
+    <AllowUntrustedCertificate>False</AllowUntrustedCertificate>
+    <DeployDatabase>True</DeployDatabase>
+    <AddAdministrator>True</AddAdministrator>
+    <BootstrapperComponentsUrl />
+    <DefaultInstallLocation>WebManagementStudio</DefaultInstallLocation>
+    <DeploySchema>True</DeploySchema>
+    <PublishNewDatabase>True</PublishNewDatabase>
+    <PublishUrl>waws-prod-db3-001.publish.azurewebsites.windows.net:443</PublishUrl>
+    <PublishSite>TiangDev</PublishSite>
+    <RemotePublish>True</RemotePublish>
+    <UseLightSwitchWebDeploymentProvider>False</UseLightSwitchWebDeploymentProvider>
+    <AzureAllowUpgrade>True</AzureAllowUpgrade>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
+    <AzureDeploymentLabel>WebManagementStudio</AzureDeploymentLabel>
+    <AzureWebSite>TiangDev</AzureWebSite>
+    <AzureWebSpace>northeuropewebspace</AzureWebSpace>
+    <AzureServiceType>WebSite</AzureServiceType>
+    <AzureHostedService />
+    <AzureHostedServiceLabel>Production</AzureHostedServiceLabel>
+    <AzureStorageService />
+    <AzureServiceManagementEndpoint>https://management.core.windows.net/</AzureServiceManagementEndpoint>
+    <SslCertificateThumbprint />
+    <LightSwitchPublishVersion>v2.0</LightSwitchPublishVersion>
+    <PublishServiceOnly>False</PublishServiceOnly>
+    <AzureCredentials>MBA Azure Credentials</AzureCredentials>
+    <SharePointServerToServerCertificatePath />
+    <SharePointServerToServerCertificateIssuerId />
+    <RequireSecureConnection>False</RequireSecureConnection>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,6 +177,21 @@
       <PublishType>
       </PublishType>
     </_BuildFile>
+  </ItemGroup>
+  <ItemGroup>
+    <LightSwitchExtension Include="MetroThemeExtension">
+      <Server>METROTHEMEEXTENSION.COMMON</Server>
+    </LightSwitchExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Install>True</Install>
+      <Name>.NETFramework,Version=v4.0</Name>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Install>True</Install>
+      <Name>Microsoft.Windows.Installer.4.5</Name>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\LightSwitch\$(LightSwitchVersion)\Microsoft.LightSwitch.targets" />
 </Project>

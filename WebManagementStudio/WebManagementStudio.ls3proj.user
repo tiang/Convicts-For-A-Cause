@@ -4,5 +4,16 @@
     <EnableENC>False</EnableENC>
     <ProjectView>ProjectFiles</ProjectView>
     <StartUpClientProject>WebManagementStudio.HTMLClient</StartUpClientProject>
+    <SchemaManagementSchemaBuildState>0</SchemaManagementSchemaBuildState>
+    <SchemaManagementLastModelWriteTime>635239795605913777</SchemaManagementLastModelWriteTime>
+    <EncryptedPublishConnectionString />
+    <EncryptedPublishSchemaConnectionString />
+    <EncryptedClientConnectionString />
+    <EncryptedAdministratorPassword />
+    <PublishUserName>$TiangDev</PublishUserName>
+    <EncryptedPublishUserPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAzGcvubEvoUeKErHnc2u33gAAAAACAAAAAAAQZgAAAAEAACAAAAD90J3GYujD0yAYSavzC7NxBqpFzoqdJISQOKh13BkRugAAAAAOgAAAAAIAACAAAACfC0NFcf2Lxt3Be1Wc5LZBsTpREvKjVLe0OOFYEE3B14AAAACcm+kSodg6gI32spD02PWm6sqjueb6xEqz3TksFGj6elvWenBo/7cLoH170HpbWjoHCnP4M+SnZYHBtG9LAyoWawnEqwi+/XIfIz4cfGtsDFF9PEzFQJN8W5Ux2Lr6mc1o3XkXaPDxfOAbWrBngOzPkgb0j0s62O8QH6qaKqcmN0AAAAAApJ89uZBjFDNSAJBTDQQZ3uRzR30wQ+OPwA/Oj0DT0gi+BWMMlLA3MP8+pw16IArfc1LtCw7XVrZvd0k4wqKy</EncryptedPublishUserPassword>
+    <AzureSubscriptionId>210a8159-04d5-4022-b518-c53f9777ee1f</AzureSubscriptionId>
+    <AzureManagementThumbprint>7C889D12D7C096E00BBC4554F4A48F090A4DC764</AzureManagementThumbprint>
+    <SharePointServerToServerCertificatePassword />
   </PropertyGroup>
 </Project>
