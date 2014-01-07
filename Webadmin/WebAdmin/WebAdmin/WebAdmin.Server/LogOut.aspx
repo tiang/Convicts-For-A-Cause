@@ -1,4 +1,7 @@
 ﻿<%@ Page Language="C#" %>
+<!-- ================================================= -->
+<!-- Logout form that is LightSwitch 2013 compatible -->
+<!-- ================================================= -->
 
 <script runat="server">
     protected override void OnLoad(EventArgs e)
