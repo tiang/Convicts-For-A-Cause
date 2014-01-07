@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="PaymentRecord">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="paymentID"
+        IsReadOnly="True"
+        PropertyType=":Int32">
+        <KeyProperty.Attributes>
+          <Hidden />
+          <Required />
+          <NotSearchable />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="PayerEmail"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="amount"
+        PropertyType=":Double">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ConvictEmail"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="TeamCode"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="PaymentType"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+          <SupportedValue
+            DisplayName="Cash"
+            Value="cash" />
+          <SupportedValue
+            DisplayName="Team Registration"
+            Value="team registration" />
+          <SupportedValue
+            DisplayName="Convict Registration"
+            Value="convict registration" />
+          <SupportedValue
+            DisplayName="Event Ticket"
+            Value="event ticket" />
+          <SupportedValue
+            DisplayName="General Donation"
+            Value="general donation" />
+          <SupportedValue
+            DisplayName="Convict Donation"
+            Value="convict donation" />
+          <SupportedValue
+            DisplayName="Team Member Registration"
+            Value="team member registration" />
+          <SupportedValue
+            DisplayName="Duplicate Donation"
+            Value="duplicate donation" />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="CreateDate"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <Required />
+          <DateTimeConstraint
+            Precision="3"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Message"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="DonorName"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Anonymous"
+        PropertyType=":Boolean">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="TransactionID"
+        PropertyType=":Int32">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="InvoiceID"
+        PropertyType=":Int32">
+        <EntityProperty.Attributes>
+          <Required />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="ConvictsData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="PaymentRecords"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="PaymentRecord" />
+    <QueryOperation
+      Name="PaymentRecords_Single"
+      ReturnType="PaymentRecord">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="paymentID" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="paymentID" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="PaymentRecords" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="paymentID"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'paymentID' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="PaymentRecords_SingleOrDefault"
+      ReturnType="PaymentRecord">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="paymentID" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="paymentID" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="PaymentRecords" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="paymentID"
+        ParameterType=":Int32?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'paymentID' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="ConvictsDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="PaymentRecords">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbo"
+          Table="PaymentRecords" />
+        <SsdlProperty
+          Name="paymentID"
+          Nullable="False"
+          StoreGeneratedPattern="Identity"
+          Type="int"
+          Property="PaymentRecord/Properties[paymentID]" />
+        <SsdlProperty
+          Name="PayerEmail"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[PayerEmail]" />
+        <SsdlProperty
+          Name="amount"
+          Nullable="False"
+          Type="float"
+          Property="PaymentRecord/Properties[amount]" />
+        <SsdlProperty
+          Name="ConvictEmail"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[ConvictEmail]" />
+        <SsdlProperty
+          Name="TeamCode"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[TeamCode]" />
+        <SsdlProperty
+          Name="PaymentType"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[PaymentType]" />
+        <SsdlProperty
+          Name="CreateDate"
+          Nullable="False"
+          Type="datetime"
+          Property="PaymentRecord/Properties[CreateDate]" />
+        <SsdlProperty
+          Name="Message"
+          Nullable="False"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[Message]" />
+        <SsdlProperty
+          Name="DonorName"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="PaymentRecord/Properties[DonorName]" />
+        <SsdlProperty
+          Name="Anonymous"
+          Nullable="False"
+          Type="bit"
+          Property="PaymentRecord/Properties[Anonymous]" />
+        <SsdlProperty
+          Name="TransactionID"
+          Nullable="False"
+          Type="int"
+          Property="PaymentRecord/Properties[TransactionID]" />
+        <SsdlProperty
+          Name="InvoiceID"
+          Nullable="False"
+          Type="int"
+          Property="PaymentRecord/Properties[InvoiceID]" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+  </DataService>
+</ServiceApplication>

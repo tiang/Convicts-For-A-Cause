@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Documents>
-    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\Properties\Service.lsml" Checksum="FEAFFCDAEBECE5F83CB7B1A50A5912D8DD776DF68B034E9AF15B69D8F3574565" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\DataSources\ConvictsData\Convicts.lsml" Checksum="EECFFD0156BEB9C090C7D1CB99EA6FD7292D50FDC874C7F8F9309883411EA5DF" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\DataSources\ConvictsData\Leaderboards.lsml" Checksum="160D9A5BC42B7A1A0F88D66CC277D96A92ACA98CDC7ECEBE9F4995C64CDB1938" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\DataSources\ConvictsData\PaymentRecords.lsml" Checksum="858D1101D1AA0B11ED1214667F0DF09327FDBACA7C8BE31C602EF14D98231966" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\DataSources\ConvictsData\Teams.lsml" Checksum="294565B9EB899B3B52C3A4A3BA8B111AE0070959F1747BE64CB0CF0A44FBD499" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\Properties\DataSources\ConvictsData.lsml" Checksum="E52650C293BCAB091F54D1FC1C07BBAEEF1F8E9680981CBD6E4B92DF3CADE3A1" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\Properties\Service.lsml" Checksum="7BD8EEF50E456A6352C957E69F7E2F2711B2D6DDFF925DC2437E0DBB0169BC67" />
   </Documents>
 </ModelDocumentManifest>

@@ -7,10 +7,7 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Serv
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.Data.OData.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.Data.Services.Client.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.Data.Services.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.IdentityModel.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.IdentityModel.Extensions.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.AppBridge.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Base.Server.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.CodeMarker.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.ExportProvider.dll
@@ -18,14 +15,12 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Serv
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Model.Xaml.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Server.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Server.Host.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Server.Internal.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.Hosting.OData.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.Server.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.PollingDuplex.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.Spatial.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.WindowsAzure.ServiceRuntime.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Microsoft.LightSwitch.Server.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.EntityFramework.xml
@@ -36,3 +31,6 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Serv
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\obj\Debug\Application.Server.pdb
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\MetroThemeExtension.Common.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\obj\Debug\WebManagementStudio.Server.csprojResolveAssemblyReference.cache
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Application.Server.dll.config
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml

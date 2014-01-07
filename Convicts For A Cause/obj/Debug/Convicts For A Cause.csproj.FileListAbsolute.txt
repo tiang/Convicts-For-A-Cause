@@ -219,3 +219,33 @@ C:\Temp\Convicts For A Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csproj.GenerateResource.Cache
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Convicts For A Cause.dll.config
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Convicts For A Cause.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Convicts For A Cause.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\EntityFramework.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.Json.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Microsoft.CSharp.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Configuration.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Data.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Drawing.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.EnterpriseServices.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.ServiceModel.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.DynamicData.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.Entity.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Web.Services.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\System.Xml.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\EntityFramework.xml
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\bin\Jayrock.Json.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csprojResolveAssemblyReference.cache
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts_For_A_Cause.Migrations.InitialCreate.resources
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.csproj.GenerateResource.Cache
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\obj\Debug\Convicts For A Cause.pdb

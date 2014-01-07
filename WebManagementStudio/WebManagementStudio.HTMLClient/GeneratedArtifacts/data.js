@@ -1,4 +1,4 @@
-﻿/// <reference path="../Scripts/msls-1.0.0.js" />
+﻿/// <reference path="../Scripts/msls.js" />
 
 window.myapp = msls.application;
 
@@ -236,7 +236,7 @@ window.myapp = msls.application;
         ]),
 
         PaymentRecord: $defineEntity(PaymentRecord, [
-            { name: "paymentID", type: Number },
+            { name: "paymentID", type: Number, isReadOnly: true },
             { name: "PayerEmail", type: String },
             { name: "amount", type: Number },
             { name: "ConvictEmail", type: String },

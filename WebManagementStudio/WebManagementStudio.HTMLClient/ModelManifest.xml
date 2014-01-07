@@ -1,6 +1,13 @@
 <?xml version="1.0"?>
 <ModelDocumentManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Documents>
-    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Properties\Client.lsml" Checksum="F5F526A6F3983C99350D1EA93184D72F285AEC02ADA77E9224730911544B09A8" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Properties\Client.lsml" Checksum="74DA53B6DDE6016F4714F2637C6F2CB31D836FF70201AF13ED56BA10EF022958" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Properties\Proxies.lsml" Checksum="BE4A466EC0ABFA4E2EA85EF75A6D1C64DEE0779822E973680B0D3934B36D602E" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\AddEditConvict.lsml" Checksum="AC9C943E828980C0621FB55DCDEDDF5405E9C686047EA0F5C3CB22D50C374383" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\AddEditPaymentRecord.lsml" Checksum="AD7A46F55584CDB399B13E3F6C784D51D359A78A70C8FFB3CFC366AC322281E9" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\BrowseConvicts.lsml" Checksum="5CA3295ADDFD7650A5FF6119A81FFAEA0344C28EE5933A8197111C4A2D7466C3" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\BrowsePaymentRecords.lsml" Checksum="15AA6566A14AB52367D23F5EC61B8FBBB9BEBC964A6CCB89F71E6A3AB9086307" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\BrowseTeams.lsml" Checksum="E353A98B9503947A115B5056E7AAC929CF023AE55819856D011CB7F4BAD28509" />
+    <Document FullPath="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.HTMLClient\Screens\Home.lsml" Checksum="45FF365CE42C9CC2CC227049D2660E407DAE805755C43C1DBE4AA4C6A545A0CE" />
   </Documents>
 </ModelDocumentManifest>

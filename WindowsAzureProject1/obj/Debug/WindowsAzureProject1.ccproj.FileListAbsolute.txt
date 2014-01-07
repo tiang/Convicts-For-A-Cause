@@ -582,3 +582,88 @@ C:\Temp\Convicts For A Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRo
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.Edm.resources.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.OData.resources.dll
 \\vmware-host\Shared Folders\Documents\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\bin\Debug\ServiceConfiguration.cscfg
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\bin\Debug\ServiceDefinition.csdef
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\ContentTypeHttpModule.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Convicts For A Cause.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\EntityFramework.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\HtmlAgilityPack.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.Json.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Jayrock.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\Microsoft.CSharp.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Configuration.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Data.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Drawing.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.EnterpriseServices.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Runtime.Serialization.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.ServiceModel.Web.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.DynamicData.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Entity.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Web.Services.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\bin\System.Xml.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Global.asax
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\helloworld.aspx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\leaderboard.asmx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\packages.config
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\payment.asmx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\registration.asmx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testajax.asmx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\TestWS\testJSONValidation.asmx
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Convicts For A Cause\Web.config
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Convicts For A Cause.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\de\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\EntityFramework.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\es\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\fr\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\HtmlAgilityPack.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\it\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ja\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ko\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.Data.Edm.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.Data.OData.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Configuration.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\Microsoft.WindowsAzure.StorageClient.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\ru\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.DataSetExtensions.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Data.Entity.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Runtime.Serialization.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Spatial.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Web.Services.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\System.Xml.Linq.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.dll.config
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\WorkerRole1.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hans\System.Spatial.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Temp\GitHub\Convicts-For-A-Cause\WindowsAzureProject1\obj\Debug\Leaderboard\zh-Hant\System.Spatial.resources.dll

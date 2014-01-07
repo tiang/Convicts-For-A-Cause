@@ -8,9 +8,9 @@
         $toODataString = msls._toODataString,
         $defineShowScreen = msls._defineShowScreen;
 
-    function BrowsePaymentRecords(parameters, dataWorkspace) {
+    function AddEditConvict(parameters, dataWorkspace) {
         /// <summary>
-        /// Represents the BrowsePaymentRecords screen.
+        /// Represents the AddEditConvict screen.
         /// </summary>
         /// <param name="parameters" type="Array">
         /// An array of screen parameter values.
@@ -18,16 +18,16 @@
         /// <param name="dataWorkspace" type="msls.application.DataWorkspace" optional="true">
         /// An existing data workspace for this screen to use. By default, a new data workspace is created.
         /// </param>
-        /// <field name="PaymentRecords" type="msls.VisualCollection" elementType="msls.application.PaymentRecord">
-        /// Gets the paymentRecords for this screen.
+        /// <field name="Convict" type="msls.application.Convict">
+        /// Gets or sets the convict for this screen.
         /// </field>
-        /// <field name="details" type="msls.application.BrowsePaymentRecords.Details">
+        /// <field name="details" type="msls.application.AddEditConvict.Details">
         /// Gets the details for this screen.
         /// </field>
         if (!dataWorkspace) {
             dataWorkspace = new lightSwitchApplication.DataWorkspace();
         }
-        $Screen.call(this, dataWorkspace, "BrowsePaymentRecords", parameters);
+        $Screen.call(this, dataWorkspace, "AddEditConvict", parameters);
     }
 
     function AddEditPaymentRecord(parameters, dataWorkspace) {
@@ -83,9 +83,9 @@
         $Screen.call(this, dataWorkspace, "BrowseConvicts", parameters);
     }
 
-    function Home(parameters, dataWorkspace) {
+    function BrowsePaymentRecords(parameters, dataWorkspace) {
         /// <summary>
-        /// Represents the Home screen.
+        /// Represents the BrowsePaymentRecords screen.
         /// </summary>
         /// <param name="parameters" type="Array">
         /// An array of screen parameter values.
@@ -93,16 +93,16 @@
         /// <param name="dataWorkspace" type="msls.application.DataWorkspace" optional="true">
         /// An existing data workspace for this screen to use. By default, a new data workspace is created.
         /// </param>
-        /// <field name="Convicts" type="msls.VisualCollection" elementType="msls.application.Convict">
-        /// Gets the convicts for this screen.
+        /// <field name="PaymentRecords" type="msls.VisualCollection" elementType="msls.application.PaymentRecord">
+        /// Gets the paymentRecords for this screen.
         /// </field>
-        /// <field name="details" type="msls.application.Home.Details">
+        /// <field name="details" type="msls.application.BrowsePaymentRecords.Details">
         /// Gets the details for this screen.
         /// </field>
         if (!dataWorkspace) {
             dataWorkspace = new lightSwitchApplication.DataWorkspace();
         }
-        $Screen.call(this, dataWorkspace, "Home", parameters);
+        $Screen.call(this, dataWorkspace, "BrowsePaymentRecords", parameters);
     }
 
     function BrowseTeams(parameters, dataWorkspace) {
@@ -127,9 +127,9 @@
         $Screen.call(this, dataWorkspace, "BrowseTeams", parameters);
     }
 
-    function AddEditConvict(parameters, dataWorkspace) {
+    function Home(parameters, dataWorkspace) {
         /// <summary>
-        /// Represents the AddEditConvict screen.
+        /// Represents the Home screen.
         /// </summary>
         /// <param name="parameters" type="Array">
         /// An array of screen parameter values.
@@ -137,27 +137,22 @@
         /// <param name="dataWorkspace" type="msls.application.DataWorkspace" optional="true">
         /// An existing data workspace for this screen to use. By default, a new data workspace is created.
         /// </param>
-        /// <field name="Convict" type="msls.application.Convict">
-        /// Gets or sets the convict for this screen.
+        /// <field name="Convicts" type="msls.VisualCollection" elementType="msls.application.Convict">
+        /// Gets the convicts for this screen.
         /// </field>
-        /// <field name="details" type="msls.application.AddEditConvict.Details">
+        /// <field name="details" type="msls.application.Home.Details">
         /// Gets the details for this screen.
         /// </field>
         if (!dataWorkspace) {
             dataWorkspace = new lightSwitchApplication.DataWorkspace();
         }
-        $Screen.call(this, dataWorkspace, "AddEditConvict", parameters);
+        $Screen.call(this, dataWorkspace, "Home", parameters);
     }
 
     msls._addToNamespace("msls.application", {
 
-        BrowsePaymentRecords: $defineScreen(BrowsePaymentRecords, [
-            {
-                name: "PaymentRecords", kind: "collection", elementType: lightSwitchApplication.PaymentRecord,
-                createQuery: function () {
-                    return this.dataWorkspace.ConvictsData.PaymentRecords;
-                }
-            }
+        AddEditConvict: $defineScreen(AddEditConvict, [
+            { name: "Convict", kind: "local", type: lightSwitchApplication.Convict }
         ], [
         ]),
 
@@ -179,11 +174,11 @@
         ], [
         ]),
 
-        Home: $defineScreen(Home, [
+        BrowsePaymentRecords: $defineScreen(BrowsePaymentRecords, [
             {
-                name: "Convicts", kind: "collection", elementType: lightSwitchApplication.Convict,
+                name: "PaymentRecords", kind: "collection", elementType: lightSwitchApplication.PaymentRecord,
                 createQuery: function () {
-                    return this.dataWorkspace.ConvictsData.Convicts;
+                    return this.dataWorkspace.ConvictsData.PaymentRecords;
                 }
             }
         ], [
@@ -199,21 +194,26 @@
         ], [
         ]),
 
-        AddEditConvict: $defineScreen(AddEditConvict, [
-            { name: "Convict", kind: "local", type: lightSwitchApplication.Convict }
+        Home: $defineScreen(Home, [
+            {
+                name: "Convicts", kind: "collection", elementType: lightSwitchApplication.Convict,
+                createQuery: function () {
+                    return this.dataWorkspace.ConvictsData.Convicts;
+                }
+            }
         ], [
         ]),
 
-        showBrowsePaymentRecords: $defineShowScreen(function showBrowsePaymentRecords(options) {
+        showAddEditConvict: $defineShowScreen(function showAddEditConvict(Convict, options) {
             /// <summary>
-            /// Asynchronously navigates forward to the BrowsePaymentRecords screen.
+            /// Asynchronously navigates forward to the AddEditConvict screen.
             /// </summary>
             /// <param name="options" optional="true">
             /// An object that provides one or more of the following options:<br/>- beforeShown: a function that is called after boundary behavior has been applied but before the screen is shown.<br/>+ Signature: beforeShown(screen)<br/>- afterClosed: a function that is called after boundary behavior has been applied and the screen has been closed.<br/>+ Signature: afterClosed(screen, action : msls.NavigateBackAction)
             /// </param>
             /// <returns type="WinJS.Promise" />
-            var parameters = Array.prototype.slice.call(arguments, 0, 0);
-            return lightSwitchApplication.showScreen("BrowsePaymentRecords", parameters, options);
+            var parameters = Array.prototype.slice.call(arguments, 0, 1);
+            return lightSwitchApplication.showScreen("AddEditConvict", parameters, options);
         }),
 
         showAddEditPaymentRecord: $defineShowScreen(function showAddEditPaymentRecord(PaymentRecord, options) {
@@ -240,16 +240,16 @@
             return lightSwitchApplication.showScreen("BrowseConvicts", parameters, options);
         }),
 
-        showHome: $defineShowScreen(function showHome(options) {
+        showBrowsePaymentRecords: $defineShowScreen(function showBrowsePaymentRecords(options) {
             /// <summary>
-            /// Asynchronously navigates forward to the Home screen.
+            /// Asynchronously navigates forward to the BrowsePaymentRecords screen.
             /// </summary>
             /// <param name="options" optional="true">
             /// An object that provides one or more of the following options:<br/>- beforeShown: a function that is called after boundary behavior has been applied but before the screen is shown.<br/>+ Signature: beforeShown(screen)<br/>- afterClosed: a function that is called after boundary behavior has been applied and the screen has been closed.<br/>+ Signature: afterClosed(screen, action : msls.NavigateBackAction)
             /// </param>
             /// <returns type="WinJS.Promise" />
             var parameters = Array.prototype.slice.call(arguments, 0, 0);
-            return lightSwitchApplication.showScreen("Home", parameters, options);
+            return lightSwitchApplication.showScreen("BrowsePaymentRecords", parameters, options);
         }),
 
         showBrowseTeams: $defineShowScreen(function showBrowseTeams(options) {
@@ -264,16 +264,16 @@
             return lightSwitchApplication.showScreen("BrowseTeams", parameters, options);
         }),
 
-        showAddEditConvict: $defineShowScreen(function showAddEditConvict(Convict, options) {
+        showHome: $defineShowScreen(function showHome(options) {
             /// <summary>
-            /// Asynchronously navigates forward to the AddEditConvict screen.
+            /// Asynchronously navigates forward to the Home screen.
             /// </summary>
             /// <param name="options" optional="true">
             /// An object that provides one or more of the following options:<br/>- beforeShown: a function that is called after boundary behavior has been applied but before the screen is shown.<br/>+ Signature: beforeShown(screen)<br/>- afterClosed: a function that is called after boundary behavior has been applied and the screen has been closed.<br/>+ Signature: afterClosed(screen, action : msls.NavigateBackAction)
             /// </param>
             /// <returns type="WinJS.Promise" />
-            var parameters = Array.prototype.slice.call(arguments, 0, 1);
-            return lightSwitchApplication.showScreen("AddEditConvict", parameters, options);
+            var parameters = Array.prototype.slice.call(arguments, 0, 0);
+            return lightSwitchApplication.showScreen("Home", parameters, options);
         })
 
     });

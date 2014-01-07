@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AzureCredentials>MBA Azure Credentials</AzureCredentials>
+    <AzureCredentials>{"ServiceManagementEndpoint":"https:\/\/management.core.windows.net\/","SubscriptionId":"210a8159-04d5-4022-b518-c53f9777ee1f"}</AzureCredentials>
     <AzureDeploymentLabel>CFAC</AzureDeploymentLabel>
     <AzureSlot>Staging</AzureSlot>
     <AzureEnableWebDeploy>False</AzureEnableWebDeploy>

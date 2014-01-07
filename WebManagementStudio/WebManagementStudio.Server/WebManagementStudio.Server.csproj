@@ -13,8 +13,8 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>LightSwitchApplication</RootNamespace>
     <AssemblyName>Application.Server</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <LightSwitchVersion>v3.0</LightSwitchVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <LightSwitchVersion>v4.0</LightSwitchVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
     <SupportedCultures>en-US</SupportedCultures>
     <FileAlignment>512</FileAlignment>
@@ -27,11 +27,13 @@
     <LightSwitchSDKPath Condition=" '$(LightSwitchSDKPath)' != '' and !HasTrailingSlash('$(LightSwitchSDKPath)')">$(LightSwitchSDKPath)\</LightSwitchSDKPath>
     <WCFRIASERVICESSDKPath Condition=" '$(WCFRIASERVICESSDKPath)' == '' ">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WCFRIAServices\v1.0@InstallPath)</WCFRIASERVICESSDKPath>
     <WCFRIASERVICESSDKPath Condition=" '$(WCFRIASERVICESSDKPath)' == '' ">$(Registry:HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\WCFRIAServices\v1.0@InstallPath)</WCFRIASERVICESSDKPath>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <NuGetPackagesFolder Condition=" Exists('..\Packages')">..\Packages\</NuGetPackagesFolder>
+    <NuGetPackagesFolder Condition=" Exists('..\..\Packages')">..\..\Packages\</NuGetPackagesFolder>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -55,9 +57,6 @@
     <NoWarn>1522</NoWarn>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MetroThemeExtension.Common">
-      <HintPath>..\_Pvt_Extensions\MetroThemeExtension\Server\Reference\MetroThemeExtension.Common.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <ProjectCritical>True</ProjectCritical>
     </Reference>
@@ -76,9 +75,16 @@
     <Reference Include="System.Data.Entity">
       <ProjectCritical>True</ProjectCritical>
     </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>$(NuGetPackagesFolder)\System.IdentityModel.Tokens.Jwt.1.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+      <ProjectCritical>True</ProjectCritical>
+    </Reference>
     <Reference Include="System.Runtime.Serialization">
       <ProjectCritical>True</ProjectCritical>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml">
       <ProjectCritical>True</ProjectCritical>
     </Reference>
@@ -98,18 +104,13 @@
       <Private>True</Private>
       <ProjectCritical>True</ProjectCritical>
     </Reference>
-    <Reference Include="Microsoft.LightSwitch.Base.Server">
-      <HintPath>$(LightSwitchSDKPath)\Server\Microsoft.LightSwitch.Base.Server.dll</HintPath>
-      <Private>True</Private>
-      <ProjectCritical>True</ProjectCritical>
-    </Reference>
-    <Reference Include="Microsoft.LightSwitch.ExportProvider, Version=10.0.11.3, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+    <Reference Include="Microsoft.LightSwitch.ExportProvider, Version=10.0.12.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>$(LightSwitchSDKPath)\Client\Microsoft.LightSwitch.ExportProvider.dll</HintPath>
       <SpecificVersion>True</SpecificVersion>
       <Private>True</Private>
       <ProjectCritical>True</ProjectCritical>
     </Reference>
-    <Reference Include="Microsoft.LightSwitch.CodeMarker, Version=11.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+    <Reference Include="Microsoft.LightSwitch.CodeMarker, Version=12.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>$(LightSwitchSDKPath)\Client\Microsoft.LightSwitch.CodeMarker.dll</HintPath>
       <SpecificVersion>True</SpecificVersion>
       <Private>True</Private>
@@ -128,10 +129,6 @@
     <Reference Include="Microsoft.LightSwitch.Server">
       <HintPath>$(LightSwitchSDKPath)\Server\Microsoft.LightSwitch.Server.dll</HintPath>
       <Private>True</Private>
-      <ProjectCritical>True</ProjectCritical>
-    </Reference>
-    <Reference Include="Microsoft.LightSwitch.Server.Internal">
-      <HintPath>$(LightSwitchSDKPath)\Server\Microsoft.LightSwitch.Server.Internal.dll</HintPath>
       <ProjectCritical>True</ProjectCritical>
     </Reference>
     <Reference Include="Microsoft.LightSwitch.Server.Host">
@@ -163,14 +160,6 @@
       <Private>True</Private>
       <ProjectCritical>True</ProjectCritical>
     </Reference>
-    <Reference Include="Microsoft.IdentityModel">
-      <Private>True</Private>
-      <ProjectCritical>True</ProjectCritical>
-    </Reference>
-    <Reference Include="Microsoft.IdentityModel.Extensions">
-      <Private>True</Private>
-      <ProjectCritical>True</ProjectCritical>
-    </Reference>
     <Reference Include="System.Spatial">
       <HintPath>$(LightSwitchSDKPath)\Server\System.Spatial.dll</HintPath>
       <Private>True</Private>
@@ -198,6 +187,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -206,7 +202,14 @@
     </LightSwitchModel>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="default.aspx" />
     <Content Include="Web.config" />
+    <_ServerFile Include="packages.config" />
+    <LightSwitchModel Include="DataSources\ConvictsData\Convicts.lsml" />
+    <LightSwitchModel Include="DataSources\ConvictsData\Leaderboards.lsml" />
+    <LightSwitchModel Include="DataSources\ConvictsData\PaymentRecords.lsml" />
+    <LightSwitchModel Include="DataSources\ConvictsData\Teams.lsml" />
+    <LightSwitchModel Include="Properties\DataSources\ConvictsData.lsml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -216,11 +219,7 @@
     <_ServerFile Include="LogIn.aspx" />
     <_ServerFile Include="LogOut.aspx" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataLogic\" />
-    <Folder Include="DataSources\" />
-    <Folder Include="Web\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -232,7 +231,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>False</UseIIS>
+          <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>42636</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
