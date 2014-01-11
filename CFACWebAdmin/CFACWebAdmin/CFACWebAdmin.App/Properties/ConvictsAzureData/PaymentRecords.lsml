@@ -8,6 +8,13 @@
     <EntityType.Attributes>
       <Proxy
         Target="ServiceInterface:PaymentRecord" />
+      <DefaultScreen
+        Value="CFViewPaymentRecord">
+        <DefaultScreen.Attributes>
+          <ScreenParameterMapping
+            ScreenParameter="CFViewPaymentRecord/Properties[PaymentRecord]" />
+        </DefaultScreen.Attributes>
+      </DefaultScreen>
     </EntityType.Attributes>
     <EntityType.Properties>
       <EntityProperty>

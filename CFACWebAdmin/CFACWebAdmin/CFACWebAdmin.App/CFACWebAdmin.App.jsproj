@@ -193,6 +193,7 @@
     <LightSwitchModel Include="Screens\UserRegistrationsBrowse.lsml" />
     <LightSwitchModel Include="Screens\UserRegistrationView.lsml" />
     <LightSwitchModel Include="Screens\UserRoleAssignmentAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\CFViewPaymentRecord.lsml" />
   </ItemGroup>
   <ItemGroup>
     <_ClientBuildFile Include="GeneratedArtifacts\model.json">

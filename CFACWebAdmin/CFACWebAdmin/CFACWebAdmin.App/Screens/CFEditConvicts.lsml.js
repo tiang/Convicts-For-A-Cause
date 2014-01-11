@@ -16,8 +16,20 @@ var addNewDonation = function () {
             new_item.PaymentType = "admin donation";
             new_item.Message = " ";
             addNewScreen.PaymentRecord = new_item;
-        }
+        },
+        afterClosed: function (addNewScreen, navigationAction) {
+            // Update the last cached OrderDetailRowParent item 
+            debugger;
+
+    }
+
     });
+};
+
+
+var viewDonations = function () {
+    var ConvictEmail = localContentItem.screen.Convict.Email;
+    myapp.showCFBrowsePaymentRecords(ConvictEmail, {});
 };
 
 
@@ -41,7 +53,24 @@ var SideMenu = {
             "IconBgColor": null,
             "IconFgColor": null,
             "PermissionId": null
-        }]
+        },{
+            "Order": 4,
+        "Name": "View Donations",
+        "TileColor": "#5dd5ed",
+        "Type": "simple",
+        "Size": "double",
+        "OnClick": "viewDonations();",
+        "Status": "View Donations",
+        "StatusBgColor": null,
+        "StatusFgColor": null,
+        "Badge": null,
+        "BadgeBgColor": null,
+        "BadgeFgColor": null,
+        "Icon": "icon-credit-card",
+        "IconBgColor": null,
+        "IconFgColor": null,
+        "PermissionId": null
+    }]
     }
 };
 
