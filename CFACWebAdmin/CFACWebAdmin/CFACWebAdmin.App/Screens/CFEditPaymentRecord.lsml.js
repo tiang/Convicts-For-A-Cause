@@ -1,5 +1,4 @@
 ﻿/// <reference path="../GeneratedArtifacts/viewModel.js" />
-
 myapp.CFEditPaymentRecord.beforeApplyChanges = function (screen) {
     // Write code here.
     var text = WMS.utility.jsEscape(screen.PaymentRecord.Message);

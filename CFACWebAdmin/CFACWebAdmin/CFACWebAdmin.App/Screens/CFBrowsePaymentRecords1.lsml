@@ -1,14 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application
   Name="LightSwitchApplication.CFACWebAdmin.App" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
   <Application.Attributes>
     <Partial />
   </Application.Attributes>
   <Screen
-    Name="BrowsePaymentRecords_Temp">
+    Name="CFBrowsePaymentRecords1">
     <Screen.Attributes>
       <SaveChangesTo
         EntityContainer="ConvictsAzureData" />
+      <DisplayName
+        Value="View Payment Records" />
     </Screen.Attributes>
     <Screen.RootContentItem>
       <ContentItem
@@ -26,12 +28,12 @@
               Name="PaymentRecord"
               Kind="Collection"
               DataType="CollectionView$PaymentRecord"
-              View="Microsoft.LightSwitch.MobileWeb:Table">
+              View="Microsoft.LightSwitch.MobileWeb:TileList">
               <ContentItem.DataSource>
                 <ScreenExpressionTree>
                   <ChainExpression>
                     <MemberExpression
-                      Member="BrowsePaymentRecords_Temp/Properties[PaymentRecords]" />
+                      Member="CFBrowsePaymentRecords1/Properties[PaymentRecords]" />
                   </ChainExpression>
                 </ScreenExpressionTree>
               </ContentItem.DataSource>
@@ -44,6 +46,19 @@
                     <ChainExpression />
                   </ScreenExpressionTree>
                 </ContentItem.DataSource>
+                <ContentItem
+                  Name="DonorName"
+                  Kind="Value"
+                  DataType=":String?">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="PaymentRecord/Properties[DonorName]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                </ContentItem>
                 <ContentItem
                   Name="PayerEmail"
                   Kind="Value"
@@ -97,58 +112,6 @@
                   </ContentItem.DataSource>
                 </ContentItem>
                 <ContentItem
-                  Name="PaymentType"
-                  Kind="Value"
-                  DataType=":String?">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[PaymentType]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="CreateDate"
-                  Kind="Value"
-                  DataType=":DateTime">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[CreateDate]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="DonorName"
-                  Kind="Value"
-                  DataType=":String?">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[DonorName]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="Anonymous"
-                  Kind="Value"
-                  DataType=":Boolean">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[Anonymous]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
                   Name="Message"
                   Kind="Value"
                   DataType=":String">
@@ -162,27 +125,14 @@
                   </ContentItem.DataSource>
                 </ContentItem>
                 <ContentItem
-                  Name="TransactionID"
+                  Name="PaymentType"
                   Kind="Value"
-                  DataType=":Int32">
+                  DataType=":String?">
                   <ContentItem.DataSource>
                     <ScreenExpressionTree>
                       <ChainExpression>
                         <MemberExpression
-                          Member="PaymentRecord/Properties[TransactionID]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="InvoiceID"
-                  Kind="Value"
-                  DataType=":Int32">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[InvoiceID]" />
+                          Member="PaymentRecord/Properties[PaymentType]" />
                       </ChainExpression>
                     </ScreenExpressionTree>
                   </ContentItem.DataSource>
@@ -256,7 +206,7 @@
         <ScreenExpressionTree>
           <ChainExpression>
             <CallExpression
-              Target="BrowsePaymentRecords_Temp/Properties[PaymentRecords]/Query" />
+              Target="CFBrowsePaymentRecords1/Properties[PaymentRecords]/Query" />
           </ChainExpression>
         </ScreenExpressionTree>
       </ScreenCollectionProperty>
@@ -264,10 +214,10 @@
   </Screen>
   <Application.Methods>
     <ApplicationMethod
-      Name="showBrowsePaymentRecords_Temp">
+      Name="showCFBrowsePaymentRecords1">
       <ApplicationMethod.Attributes>
         <ShowScreenMethod
-          TargetScreen="BrowsePaymentRecords_Temp" />
+          TargetScreen="CFBrowsePaymentRecords1" />
       </ApplicationMethod.Attributes>
     </ApplicationMethod>
   </Application.Methods>

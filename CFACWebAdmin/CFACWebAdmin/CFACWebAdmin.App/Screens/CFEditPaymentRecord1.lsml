@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Application
   Name="LightSwitchApplication.CFACWebAdmin.App" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
   <Application.Attributes>
     <Partial />
   </Application.Attributes>
   <Screen
-    Name="CFBrowsePaymentRecords">
+    Name="CFEditPaymentRecord1">
     <Screen.Attributes>
       <SaveChangesTo
         EntityContainer="ConvictsAzureData" />
@@ -20,30 +20,33 @@
           Kind="Group"
           View="Microsoft.LightSwitch.MobileWeb:TabPages">
           <ContentItem
-            Name="PaymentRecordList"
-            Kind="Group">
+            Name="Details"
+            Kind="Group"
+            View="Microsoft.LightSwitch.MobileWeb:RowsLayout">
+            <ContentItem.Attributes>
+              <DisplayName
+                Value="Details" />
+            </ContentItem.Attributes>
             <ContentItem
-              Name="PaymentRecord"
-              Kind="Collection"
-              DataType="CollectionView$PaymentRecord"
-              View="Microsoft.LightSwitch.MobileWeb:Table">
+              Name="columns"
+              Kind="Details"
+              DataType="PaymentRecord"
+              View="Microsoft.LightSwitch.MobileWeb:ColumnsLayout">
+              <ContentItem.Attributes>
+                <DisplayName
+                  Value="columns" />
+              </ContentItem.Attributes>
               <ContentItem.DataSource>
                 <ScreenExpressionTree>
                   <ChainExpression>
                     <MemberExpression
-                      Member="CFBrowsePaymentRecords/Properties[PaymentRecords]" />
+                      Member="CFEditPaymentRecord1/Properties[PaymentRecord]" />
                   </ChainExpression>
                 </ScreenExpressionTree>
               </ContentItem.DataSource>
               <ContentItem
-                Name="RowTemplate"
-                Kind="Details"
-                DataType="PaymentRecord">
-                <ContentItem.DataSource>
-                  <ScreenExpressionTree>
-                    <ChainExpression />
-                  </ScreenExpressionTree>
-                </ContentItem.DataSource>
+                Name="left"
+                Kind="Group">
                 <ContentItem
                   Name="DonorName"
                   Kind="Value"
@@ -53,19 +56,6 @@
                       <ChainExpression>
                         <MemberExpression
                           Member="PaymentRecord/Properties[DonorName]" />
-                      </ChainExpression>
-                    </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
-                <ContentItem
-                  Name="ConvictEmail"
-                  Kind="Value"
-                  DataType="Microsoft.LightSwitch.Extensions:EmailAddress?">
-                  <ContentItem.DataSource>
-                    <ScreenExpressionTree>
-                      <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[ConvictEmail]" />
                       </ChainExpression>
                     </ScreenExpressionTree>
                   </ContentItem.DataSource>
@@ -84,6 +74,19 @@
                   </ContentItem.DataSource>
                 </ContentItem>
                 <ContentItem
+                  Name="ConvictEmail"
+                  Kind="Value"
+                  DataType="Microsoft.LightSwitch.Extensions:EmailAddress?">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="PaymentRecord/Properties[ConvictEmail]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                </ContentItem>
+                <ContentItem
                   Name="amount"
                   Kind="Value"
                   DataType=":Double">
@@ -92,6 +95,45 @@
                       <ChainExpression>
                         <MemberExpression
                           Member="PaymentRecord/Properties[amount]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                </ContentItem>
+                <ContentItem.PropertySources>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MinWidth]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <ConstantExpression
+                          Value="200"
+                          ResultType=":Double" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MaxWidth]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <ConstantExpression
+                          Value="400"
+                          ResultType=":Double" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                </ContentItem.PropertySources>
+              </ContentItem>
+              <ContentItem
+                Name="right"
+                Kind="Group">
+                <ContentItem
+                  Name="PaymentType"
+                  Kind="Value"
+                  DataType=":String?">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="PaymentRecord/Properties[PaymentType]" />
                       </ChainExpression>
                     </ScreenExpressionTree>
                   </ContentItem.DataSource>
@@ -110,6 +152,19 @@
                   </ContentItem.DataSource>
                 </ContentItem>
                 <ContentItem
+                  Name="Anonymous"
+                  Kind="Value"
+                  DataType=":Boolean">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="PaymentRecord/Properties[Anonymous]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                </ContentItem>
+                <ContentItem
                   Name="Message"
                   Kind="Value"
                   DataType=":String">
@@ -122,39 +177,58 @@
                     </ScreenExpressionTree>
                   </ContentItem.DataSource>
                 </ContentItem>
-                <ContentItem
-                  Name="PaymentType"
-                  Kind="Value"
-                  DataType=":String?">
-                  <ContentItem.DataSource>
+                <ContentItem.PropertySources>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MinWidth]">
                     <ScreenExpressionTree>
                       <ChainExpression>
-                        <MemberExpression
-                          Member="PaymentRecord/Properties[PaymentType]" />
+                        <ConstantExpression
+                          Value="200"
+                          ResultType=":Double" />
                       </ChainExpression>
                     </ScreenExpressionTree>
-                  </ContentItem.DataSource>
-                </ContentItem>
+                  </ControlPropertySource>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MaxWidth]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <ConstantExpression
+                          Value="400"
+                          ResultType=":Double" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                </ContentItem.PropertySources>
               </ContentItem>
             </ContentItem>
           </ContentItem>
-          <ContentItem.PropertySources>
-            <ControlPropertySource
-              Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[BrowseOnly]">
-              <ScreenExpressionTree>
-                <ChainExpression>
-                  <ConstantExpression
-                    Value="True"
-                    ResultType=":Boolean" />
-                </ChainExpression>
-              </ScreenExpressionTree>
-            </ControlPropertySource>
-          </ContentItem.PropertySources>
         </ContentItem>
         <ContentItem
           Name="Popups"
           Kind="Group"
           View="Microsoft.LightSwitch.MobileWeb:DialogPages" />
+        <ContentItem.PropertySources>
+          <ControlPropertySource
+            Property="Microsoft.LightSwitch.MobileWeb:Screen/Properties[ScreenType]">
+            <ScreenExpressionTree>
+              <ChainExpression>
+                <ConstantExpression
+                  Value="Edit"
+                  ResultType=":String" />
+              </ChainExpression>
+            </ScreenExpressionTree>
+          </ControlPropertySource>
+          <ControlPropertySource
+            Property="Microsoft.LightSwitch.MobileWeb:Screen/Properties[ShowAsDialog]">
+            <ScreenExpressionTree>
+              <ChainExpression>
+                <ConstantExpression
+                  Value="True"
+                  ResultType=":Boolean" />
+              </ChainExpression>
+            </ScreenExpressionTree>
+          </ControlPropertySource>
+        </ContentItem.PropertySources>
       </ContentItem>
     </Screen.RootContentItem>
     <Screen.Methods>
@@ -182,49 +256,17 @@
       </ScreenMethod>
     </Screen.Methods>
     <Screen.Properties>
-      <ScreenCollectionProperty
-        Name="PaymentRecords"
-        PageSize="45"
-        PropertyType="CollectionView$PaymentRecord">
-        <ScreenCollectionProperty.Query>
-          <ScreenQueryDefinition
-            Name="PaymentRecordsQuery"
-            ReturnType="PaymentRecord*">
-            <ScreenQueryDefinition.FilterExpression>
-              <QueryFilterExpressionTree />
-            </ScreenQueryDefinition.FilterExpression>
-            <ScreenQueryDefinition.Source>
-              <QuerySourceExpressionTree>
-                <MemberExpression
-                  Member="ConvictsAzureData/Members[PaymentRecords]" />
-              </QuerySourceExpressionTree>
-            </ScreenQueryDefinition.Source>
-            <ScreenQueryDefinition.SortCriteria>
-              <SortCriterion
-                Direction="Descending">
-                <ChainExpression>
-                  <MemberExpression
-                    Member="CreateDate" />
-                </ChainExpression>
-              </SortCriterion>
-            </ScreenQueryDefinition.SortCriteria>
-          </ScreenQueryDefinition>
-        </ScreenCollectionProperty.Query>
-        <ScreenExpressionTree>
-          <ChainExpression>
-            <CallExpression
-              Target="CFBrowsePaymentRecords/Properties[PaymentRecords]/Query" />
-          </ChainExpression>
-        </ScreenExpressionTree>
-      </ScreenCollectionProperty>
+      <ScreenProperty
+        Name="PaymentRecord"
+        PropertyType="PaymentRecord" />
     </Screen.Properties>
   </Screen>
   <Application.Methods>
     <ApplicationMethod
-      Name="showCFBrowsePaymentRecords">
+      Name="showCFEditPaymentRecord1">
       <ApplicationMethod.Attributes>
         <ShowScreenMethod
-          TargetScreen="CFBrowsePaymentRecords" />
+          TargetScreen="CFEditPaymentRecord1" />
       </ApplicationMethod.Attributes>
     </ApplicationMethod>
   </Application.Methods>

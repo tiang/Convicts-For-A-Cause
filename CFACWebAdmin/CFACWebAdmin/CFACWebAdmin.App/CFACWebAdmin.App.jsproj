@@ -84,9 +84,6 @@
     <Content Include="Content\Images\user-splash-screen.png" />
     <Content Include="Content\Web.config" />
     <Content Include="packages.config" />
-    <Content Include="Screens\CFBrowsePaymentRecords.lsml.js">
-      <DependentUpon>CFBrowsePaymentRecords.lsml</DependentUpon>
-    </Content>
     <Content Include="Screens\CFEditConvicts.lsml.js">
       <DependentUpon>CFEditConvicts.lsml</DependentUpon>
     </Content>
@@ -170,10 +167,9 @@
     <LightSwitchModel Include="Properties\LsSecurityData\Roles.lsml" />
     <LightSwitchModel Include="Properties\LsSecurityData\UserRegistrations.lsml" />
     <LightSwitchModel Include="Properties\Proxies.lsml" />
-    <LightSwitchModel Include="Screens\BrowsePaymentRecords_Temp.lsml" />
+    <LightSwitchModel Include="Screens\CFEditPaymentRecord.lsml" />
     <LightSwitchModel Include="Screens\CFBrowsePaymentRecords.lsml" />
     <LightSwitchModel Include="Screens\CFEditConvicts.lsml" />
-    <LightSwitchModel Include="Screens\CFEditPaymentRecord.lsml" />
     <LightSwitchModel Include="Screens\ConvictsAdmin.lsml" />
     <LightSwitchModel Include="Screens\CFBrowseConvicts.lsml" />
     <LightSwitchModel Include="Screens\MenuExport.lsml" />
