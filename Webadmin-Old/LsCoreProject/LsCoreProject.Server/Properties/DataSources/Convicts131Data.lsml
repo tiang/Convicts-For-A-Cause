@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityContainer
+    Name="Convicts131Data">
+    <SubmitOperation
+      Name="SaveChanges" />
+  </EntityContainer>
+  <DataService
+    Name="Convicts131DataDataService"
+    DataProvider="EntityFrameworkDataProvider"
+    EntityContainer="Convicts131Data">
+    <DataService.ConnectionProperties>
+      <ConnectionProperty
+        Name="DataProviderName"
+        Value="91510608-8809-4020-8897-fba057e22d54" />
+      <ConnectionProperty
+        Name="DataSourceName"
+        Value="bf8bef57-3ef1-4ec4-beeb-6581498003a6" />
+      <ConnectionProperty
+        Name="ProviderInvariantName"
+        Value="System.Data.SqlClient" />
+      <ConnectionProperty
+        Name="ConnectionStringGuid"
+        Value="15cbb663-a009-4770-b853-342f46b00cd2" />
+      <ConnectionProperty
+        Name="ProviderManifestToken"
+        Value="2008" />
+    </DataService.ConnectionProperties>
+  </DataService>
+</ServiceApplication>

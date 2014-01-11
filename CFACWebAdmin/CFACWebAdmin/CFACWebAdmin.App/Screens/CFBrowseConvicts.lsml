@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+  Name="LightSwitchApplication.CFACWebAdmin.App" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <Application.Attributes>
+    <Partial />
+  </Application.Attributes>
+  <Screen
+    Name="CFBrowseConvicts">
+    <Screen.Attributes>
+      <SaveChangesTo
+        EntityContainer="ConvictsAzureData" />
+      <DisplayName
+        Value="View Convicts" />
+    </Screen.Attributes>
+    <Screen.RootContentItem>
+      <ContentItem
+        Name="RootContentItem"
+        Kind="Screen"
+        View="Microsoft.LightSwitch.MobileWeb:Screen">
+        <ContentItem
+          Name="Tabs"
+          Kind="Group"
+          View="Microsoft.LightSwitch.MobileWeb:TabPages">
+          <ContentItem
+            Name="ConvictList"
+            Kind="Group">
+            <ContentItem
+              Name="Convict"
+              Kind="Collection"
+              DataType="CollectionView$Convict"
+              View="Microsoft.LightSwitch.MobileWeb:TileList">
+              <ContentItem.DataSource>
+                <ScreenExpressionTree>
+                  <ChainExpression>
+                    <MemberExpression
+                      Member="CFBrowseConvicts/Properties[Convicts]" />
+                  </ChainExpression>
+                </ScreenExpressionTree>
+              </ContentItem.DataSource>
+              <ContentItem
+                Name="RowTemplate"
+                Kind="Details"
+                DataType="Convict">
+                <ContentItem.DataSource>
+                  <ScreenExpressionTree>
+                    <ChainExpression />
+                  </ScreenExpressionTree>
+                </ContentItem.DataSource>
+                <ContentItem
+                  Name="Name"
+                  Kind="Value"
+                  DataType=":String?">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="Convict/Properties[Name]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[AttachedLabelPosition]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="LeftAligned"
+                            ResultType=":String" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+                <ContentItem
+                  Name="ConvictCode"
+                  Kind="Value"
+                  DataType=":String?">
+                  <ContentItem.Attributes>
+                    <DisplayName
+                      Value="Convict #" />
+                  </ContentItem.Attributes>
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="Convict/Properties[ConvictCode]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[AttachedLabelPosition]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="LeftAligned"
+                            ResultType=":String" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+                <ContentItem
+                  Name="Total"
+                  Kind="Value"
+                  DataType=":String">
+                  <ContentItem.DataSource>
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <MemberExpression
+                          Member="Convict/Properties[Total]" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ContentItem.DataSource>
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[AttachedLabelPosition]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="LeftAligned"
+                            ResultType=":String" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+              </ContentItem>
+              <ContentItem.PropertySources>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:RootCollectionControl/Properties[ItemTap]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <CallExpression
+                        Target="!module/Methods[showCFEditConvicts]">
+                        <CallExpression.Attributes>
+                          <AssociatedCollection
+                            Collection="CFBrowseConvicts/Properties[Convicts]" />
+                        </CallExpression.Attributes>
+                        <ArgumentExpression
+                          Parameter="Convict">
+                          <ChainExpression>
+                            <MemberExpression
+                              Member="CFBrowseConvicts/Properties[Convicts]" />
+                            <MemberExpression
+                              Member="selectedItem" />
+                          </ChainExpression>
+                        </ArgumentExpression>
+                      </CallExpression>
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+              </ContentItem.PropertySources>
+            </ContentItem>
+            <ContentItem.CommandItems>
+              <ContentItem
+                Name="SearchForAllConvict"
+                Kind="Command">
+                <ContentItem.Attributes>
+                  <DisplayName
+                    Value="Search For Convict" />
+                  <Description
+                    Value="Search for a convict by name, email or convict code" />
+                </ContentItem.Attributes>
+                <ContentItem.PropertySources>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[Tap]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <CallExpression
+                          Target="CFBrowseConvicts/Methods[showDialog]">
+                          <ArgumentExpression
+                            Parameter="dialogName">
+                            <ConstantExpression
+                              Value="SearchForConvict"
+                              ResultType=":String" />
+                          </ArgumentExpression>
+                        </CallExpression>
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootCommand/Properties[Icon]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <ConstantExpression
+                          Value="msls-search"
+                          ResultType=":String" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                </ContentItem.PropertySources>
+              </ContentItem>
+            </ContentItem.CommandItems>
+          </ContentItem>
+          <ContentItem.PropertySources>
+            <ControlPropertySource
+              Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[BrowseOnly]">
+              <ScreenExpressionTree>
+                <ChainExpression>
+                  <ConstantExpression
+                    Value="True"
+                    ResultType=":Boolean" />
+                </ChainExpression>
+              </ScreenExpressionTree>
+            </ControlPropertySource>
+          </ContentItem.PropertySources>
+        </ContentItem>
+        <ContentItem
+          Name="Popups"
+          Kind="Group"
+          View="Microsoft.LightSwitch.MobileWeb:DialogPages">
+          <ContentItem
+            Name="SearchConvictCode"
+            Kind="Group">
+            <ContentItem.Attributes>
+              <DisplayName
+                Value="Search By Convict Code" />
+            </ContentItem.Attributes>
+            <ContentItem
+              Name="SearchConvictsCode"
+              Kind="Value"
+              DataType=":String?">
+              <ContentItem.DataSource>
+                <ScreenExpressionTree>
+                  <ChainExpression>
+                    <MemberExpression
+                      Member="CFBrowseConvicts/Properties[SearchConvictsCode]" />
+                  </ChainExpression>
+                </ScreenExpressionTree>
+              </ContentItem.DataSource>
+            </ContentItem>
+          </ContentItem>
+          <ContentItem
+            Name="SearchByConvictName"
+            Kind="Group">
+            <ContentItem
+              Name="SearchConvictsName"
+              Kind="Value"
+              DataType=":String">
+              <ContentItem.DataSource>
+                <ScreenExpressionTree>
+                  <ChainExpression>
+                    <MemberExpression
+                      Member="CFBrowseConvicts/Properties[SearchConvictsName]" />
+                  </ChainExpression>
+                </ScreenExpressionTree>
+              </ContentItem.DataSource>
+            </ContentItem>
+          </ContentItem>
+          <ContentItem
+            Name="SearchByConvictEmail"
+            Kind="Group">
+            <ContentItem
+              Name="SearchConvictsEmail"
+              Kind="Value"
+              DataType=":String">
+              <ContentItem.DataSource>
+                <ScreenExpressionTree>
+                  <ChainExpression>
+                    <MemberExpression
+                      Member="CFBrowseConvicts/Properties[SearchConvictsEmail]" />
+                  </ChainExpression>
+                </ScreenExpressionTree>
+              </ContentItem.DataSource>
+            </ContentItem>
+          </ContentItem>
+          <ContentItem
+            Name="SearchForConvict"
+            Kind="Group">
+            <ContentItem
+              Name="SearchConvictAll"
+              Kind="Value"
+              DataType=":String">
+              <ContentItem.Attributes>
+                <DisplayName
+                  Value="Convict Details" />
+                <Description
+                  Value="Search for Convict by Name, Email or Convict Code" />
+              </ContentItem.Attributes>
+              <ContentItem.DataSource>
+                <ScreenExpressionTree>
+                  <ChainExpression>
+                    <MemberExpression
+                      Member="CFBrowseConvicts/Properties[SearchConvictAll]" />
+                  </ChainExpression>
+                </ScreenExpressionTree>
+              </ContentItem.DataSource>
+            </ContentItem>
+          </ContentItem>
+        </ContentItem>
+      </ContentItem>
+    </Screen.RootContentItem>
+    <Screen.Methods>
+      <ScreenMethod
+        Name="showTab">
+        <ScreenMethod.Attributes>
+          <DisplayMethodByDefault
+            Display="True" />
+          <Generated />
+        </ScreenMethod.Attributes>
+        <ScreenMethodParameter
+          Name="tabName"
+          ParameterType=":String" />
+      </ScreenMethod>
+      <ScreenMethod
+        Name="showDialog">
+        <ScreenMethod.Attributes>
+          <DisplayMethodByDefault
+            Display="True" />
+          <Generated />
+        </ScreenMethod.Attributes>
+        <ScreenMethodParameter
+          Name="dialogName"
+          ParameterType=":String" />
+      </ScreenMethod>
+    </Screen.Methods>
+    <Screen.Properties>
+      <ScreenCollectionProperty
+        Name="Convicts"
+        PageSize="45"
+        PropertyType="CollectionView$Convict">
+        <ScreenCollectionProperty.Query>
+          <ScreenQueryDefinition
+            Name="ConvictsQuery"
+            ReturnType="Convict*">
+            <ScreenQueryDefinition.FilterExpression>
+              <QueryFilterExpressionTree>
+                <BinaryExpression
+                  NodeType="Or">
+                  <BinaryExpression.Left>
+                    <BinaryExpression
+                      NodeType="Or">
+                      <BinaryExpression.Left>
+                        <BinaryExpression
+                          NodeType="Contains">
+                          <BinaryExpression.Left>
+                            <ChainExpression>
+                              <MemberExpression
+                                Member="Convict/Properties[ConvictCode]" />
+                            </ChainExpression>
+                          </BinaryExpression.Left>
+                          <BinaryExpression.Right>
+                            <ParameterExpression
+                              Parameter="ParameterConvictAll" />
+                          </BinaryExpression.Right>
+                        </BinaryExpression>
+                      </BinaryExpression.Left>
+                      <BinaryExpression.Right>
+                        <BinaryExpression
+                          NodeType="Contains">
+                          <BinaryExpression.Left>
+                            <ChainExpression>
+                              <MemberExpression
+                                Member="Convict/Properties[Name]" />
+                            </ChainExpression>
+                          </BinaryExpression.Left>
+                          <BinaryExpression.Right>
+                            <ParameterExpression
+                              Parameter="ParameterConvictAll" />
+                          </BinaryExpression.Right>
+                        </BinaryExpression>
+                      </BinaryExpression.Right>
+                    </BinaryExpression>
+                  </BinaryExpression.Left>
+                  <BinaryExpression.Right>
+                    <BinaryExpression
+                      NodeType="Contains">
+                      <BinaryExpression.Left>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[Email]" />
+                        </ChainExpression>
+                      </BinaryExpression.Left>
+                      <BinaryExpression.Right>
+                        <ParameterExpression
+                          Parameter="ParameterConvictAll" />
+                      </BinaryExpression.Right>
+                    </BinaryExpression>
+                  </BinaryExpression.Right>
+                </BinaryExpression>
+              </QueryFilterExpressionTree>
+            </ScreenQueryDefinition.FilterExpression>
+            <ScreenQueryDefinition.Source>
+              <QuerySourceExpressionTree>
+                <MemberExpression
+                  Member="ConvictsAzureData/Members[Convicts]" />
+              </QuerySourceExpressionTree>
+            </ScreenQueryDefinition.Source>
+            <ScreenQueryDefinition.Parameters>
+              <QueryParameter
+                Name="ParameterConvictAll"
+                IsOptional="True"
+                ParameterType=":String?" />
+            </ScreenQueryDefinition.Parameters>
+          </ScreenQueryDefinition>
+        </ScreenCollectionProperty.Query>
+        <ScreenExpressionTree>
+          <ChainExpression>
+            <CallExpression
+              Target="CFBrowseConvicts/Properties[Convicts]/Query">
+              <ArgumentExpression
+                Parameter="ParameterConvictAll">
+                <ChainExpression>
+                  <MemberExpression
+                    Member="CFBrowseConvicts/Properties[SearchConvictAll]" />
+                </ChainExpression>
+              </ArgumentExpression>
+            </CallExpression>
+          </ChainExpression>
+        </ScreenExpressionTree>
+      </ScreenCollectionProperty>
+      <ScreenProperty
+        Name="SearchConvictsCode"
+        PropertyType=":String?">
+        <ScreenProperty.Attributes>
+          <IsParameter />
+        </ScreenProperty.Attributes>
+      </ScreenProperty>
+      <ScreenProperty
+        Name="SearchConvictsName"
+        PropertyType=":String">
+        <ScreenProperty.Attributes>
+          <Required />
+        </ScreenProperty.Attributes>
+      </ScreenProperty>
+      <ScreenProperty
+        Name="SearchConvictsEmail"
+        PropertyType=":String">
+        <ScreenProperty.Attributes>
+          <Required />
+        </ScreenProperty.Attributes>
+      </ScreenProperty>
+      <ScreenProperty
+        Name="SearchConvictAll"
+        PropertyType=":String">
+        <ScreenProperty.Attributes>
+          <Required />
+        </ScreenProperty.Attributes>
+      </ScreenProperty>
+    </Screen.Properties>
+  </Screen>
+  <Application.Methods>
+    <ApplicationMethod
+      Name="showCFBrowseConvicts">
+      <ApplicationMethod.Attributes>
+        <ShowScreenMethod
+          TargetScreen="CFBrowseConvicts" />
+      </ApplicationMethod.Attributes>
+      <ApplicationMethodParameter
+        Name="SearchConvictsCode"
+        ParameterType=":String?" />
+    </ApplicationMethod>
+  </Application.Methods>
+</Application>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+  Name="LightSwitchApplication.CFACWebAdmin.App" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <Application.Attributes>
+    <Partial />
+  </Application.Attributes>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:RoleAssignment" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:RolePermission" />
+    </EntityType.Attributes>
+  </EntityType>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:RoleAssignment_User" />
+    </Association.Attributes>
+  </Association>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:RoleAssignment_SourceAccount" />
+    </Association.Attributes>
+  </Association>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:RoleAssignment_Role" />
+    </Association.Attributes>
+  </Association>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:RolePermission_Role" />
+    </Association.Attributes>
+  </Association>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:RolePermission_Permission" />
+    </Association.Attributes>
+  </Association>
+  <EntityContainer>
+    <EntityContainer.Attributes>
+      <Proxy
+        Target="ServiceInterface:LsSecurityData" />
+    </EntityContainer.Attributes>
+  </EntityContainer>
+  <EntityContainer>
+    <EntityContainer.Attributes>
+      <Proxy
+        Target="ServiceInterface:ApplicationData" />
+    </EntityContainer.Attributes>
+  </EntityContainer>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:Icon" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:MenuTile" />
+    </EntityType.Attributes>
+  </EntityType>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:MenuTile_Menu" />
+    </Association.Attributes>
+  </Association>
+  <Association>
+    <Association.Attributes>
+      <Proxy
+        Target="ServiceInterface:MenuTile_Icon" />
+    </Association.Attributes>
+  </Association>
+  <VirtualAssociation>
+    <VirtualAssociation.Attributes>
+      <Proxy
+        Target="ServiceInterface:MenuTile_Permission" />
+    </VirtualAssociation.Attributes>
+  </VirtualAssociation>
+  <VirtualAssociationSet>
+    <VirtualAssociationSet.Attributes>
+      <Proxy
+        Target="ServiceInterface:MenuTile_Permission_Set" />
+    </VirtualAssociationSet.Attributes>
+  </VirtualAssociationSet>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:Convict" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:Leaderboard" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityType>
+    <EntityType.Attributes>
+      <Proxy
+        Target="ServiceInterface:Team" />
+    </EntityType.Attributes>
+  </EntityType>
+  <EntityContainer>
+    <EntityContainer.Attributes>
+      <Proxy
+        Target="ServiceInterface:ConvictsAzureData" />
+    </EntityContainer.Attributes>
+  </EntityContainer>
+</Application>

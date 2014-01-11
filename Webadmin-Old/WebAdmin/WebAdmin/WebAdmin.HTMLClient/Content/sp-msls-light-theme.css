@@ -1,0 +1,133 @@
+/*
+
+Theme for LightSwitch HTML Client - Light colored version
+		
+*/
+
+
+/* Container that is used in the popup color selector */
+.sp-LightSwitch.sp-container {
+    background-color: #ECECEC;
+    border: solid 1px rgb(171,171,171);
+}
+
+/* Replacer (the little preview div that shows up instead of the <input>) */
+.sp-LightSwitch.sp-replacer {
+    border: solid 1px rgb(171,171,171);
+    background: #fff;
+    vertical-align: middle;
+    color: #333;
+}
+.sp-LightSwitch.sp-replacer:focus {
+    border-color: rgb(38, 160, 218);
+}
+
+.sp-LightSwitch.sp-replacer:hover, .sp-LightSwitch.sp-replacer.sp-active {
+    /*border-color: rgb(38, 160, 218);
+    color: #111;*/
+
+	border-color: rgb(38, 160, 218);
+	background-color: rgb(230, 242, 250);
+    color: #111;
+
+}
+.sp-LightSwitch.sp-replacer.sp-disabled {
+    border-color: silver;
+    color: silver;
+}
+
+.sp-LightSwitch.sp-preview {
+    border: solid 1px #222;
+}
+.sp-LightSwitch.sp-cancel {
+    color: #d93f3f !important;
+}
+
+.sp-LightSwitch, .sp-LightSwitch button, .sp-LightSwitch input, .sp-color, .sp-hue {
+
+}
+
+/* Input */
+.sp-LightSwitch .sp-input-container {
+
+}
+.sp-LightSwitch .sp-initial-disabled .sp-input-container {
+
+}
+.sp-LightSwitch .sp-input {
+
+}
+.sp-LightSwitch .sp-input:focus  {
+
+}
+.sp-LightSwitch .sp-input.sp-validation-error {
+
+}
+
+.sp-LightSwitch .sp-picker-container , .sp-LightSwitch .sp-palette-container {
+
+}
+.sp-LightSwitch .sp-picker-container {
+
+}
+
+/* Palettes */
+.sp-LightSwitch .sp-palette-container {
+	width: 30px;
+}
+
+.sp-LightSwitch .sp-palette .sp-thumb-el {
+
+}
+.sp-LightSwitch .sp-palette .sp-thumb-el:hover, .sp-LightSwitch .sp-palette .sp-thumb-el.sp-thumb-active {
+
+}
+.sp-LightSwitch .sp-thumb-el {
+}
+
+/* Initial */
+.sp-LightSwitch .sp-initial {
+
+}
+.sp-LightSwitch .sp-initial span {
+
+}
+
+/* Buttons */
+.sp-LightSwitch .sp-button-container {
+
+}
+
+.sp-LightSwitch .sp-dd {
+
+}
+
+
+
+.sp-LightSwitch .sp-preview {
+
+}
+.sp-LightSwitch .sp-palette {
+
+}
+.sp-LightSwitch .sp-palette .sp-thumb-el {
+
+}
+.sp-LightSwitch button {
+
+}
+.sp-LightSwitch button:hover {
+
+}
+.sp-LightSwitch button:active {
+
+}
+.sp-LightSwitch .sp-cancel {
+
+}
+.sp-LightSwitch .sp-cancel:hover {
+
+}
+.sp-LightSwitch .sp-palette span:hover, .sp-LightSwitch .sp-palette span.sp-thumb-active {
+
+}

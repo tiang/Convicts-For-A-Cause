@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityContainer
+    Name="LsSecurityData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <QueryOperation
+      Name="NonSecurityAdministrators"
+      ReturnType="UserRegistration*">
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree />
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="UserRegistrations" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperation.SortCriteria>
+        <SortCriterion>
+          <ChainExpression>
+            <MemberExpression
+              Member="FullName" />
+          </ChainExpression>
+        </SortCriterion>
+      </QueryOperation.SortCriteria>
+    </QueryOperation>
+  </EntityContainer>
+</ServiceApplication>

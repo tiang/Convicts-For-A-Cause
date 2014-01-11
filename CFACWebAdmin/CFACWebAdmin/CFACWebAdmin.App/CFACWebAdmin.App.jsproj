@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)' != 'Release' ">
+    <UseDesignTimeFeatures>true</UseDesignTimeFeatures>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{81bcfaff-9963-44cb-8386-067e878a389e}</ProjectGuid>
+    <LightSwitchVersion>v4.0</LightSwitchVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\LightSwitch\v4.0\MobileClient\Microsoft.LightSwitch.MobileClient.Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\LightSwitch\v4.0\MobileClient\Microsoft.LightSwitch.MobileClient.props" />
+  <PropertyGroup>
+    <!--TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion-->
+    <LightSwitchProjectTypeV3>Client</LightSwitchProjectTypeV3>
+    <LightSwitchProjectSubType>JScript</LightSwitchProjectSubType>
+    <ProjectTypeGuids>{DA98106F-DEFA-4A62-8804-0BD2F166A45D};{262852c6-cd72-467d-83fe-5eeb1973a190}</ProjectTypeGuids>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <SupportedCultures>en-US</SupportedCultures>
+    <DefaultPlatform>AnyCPU</DefaultPlatform>
+    <ClientProjectName>App</ClientProjectName>
+    <ServerProjectReference>..\CFACWebAdmin.Server\CFACWebAdmin.Server.csproj</ServerProjectReference>
+    <LightSwitchDisplayName>App</LightSwitchDisplayName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\dark-theme-2.0.0.css" />
+    <Content Include="Content\Fonts\iconFont.dev.svg" />
+    <Content Include="Content\Fonts\iconFont.eot" />
+    <Content Include="Content\Fonts\iconFont.json" />
+    <Content Include="Content\Fonts\iconFont.svg" />
+    <Content Include="Content\Fonts\iconFont.ttf" />
+    <Content Include="Content\Fonts\iconFont.woff" />
+    <Content Include="Content\Images\ajax-loader.gif" />
+    <Content Include="Content\Images\icons-18-black.png" />
+    <Content Include="Content\Images\icons-18-white.png" />
+    <Content Include="Content\Images\icons-36-black.png" />
+    <Content Include="Content\Images\icons-36-white.png" />
+    <Content Include="Content\Images\msls-black-icons-18.png" />
+    <Content Include="Content\Images\msls-black-icons-36.png" />
+    <Content Include="Content\Images\msls-loader-dark.gif" />
+    <Content Include="Content\Images\msls-loader-light.gif" />
+    <Content Include="Content\Images\msls-white-icons-18.png" />
+    <Content Include="Content\Images\msls-white-icons-36.png" />
+    <Content Include="Content\Images\msls-blue-icons-36.png" />
+    <Content Include="Content\jquery.mobile-1.3.0.css" />
+    <Content Include="Content\jquery.mobile-1.3.0.min.css" />
+    <Content Include="Content\jquery.mobile.structure-1.3.0.css" />
+    <Content Include="Content\jquery.mobile.structure-1.3.0.min.css" />
+    <Content Include="Content\jquery.mobile.theme-1.3.0.css" />
+    <Content Include="Content\jquery.mobile.theme-1.3.0.min.css" />
+    <Content Include="Content\light-theme-2.0.0.css" />
+    <Content Include="Content\MetroUICss\colors.less" />
+    <Content Include="Content\MetroUICss\icons-content.less" />
+    <Content Include="Content\MetroUICss\icons.less" />
+    <Content Include="Content\MetroUICss\layout.less" />
+    <Content Include="Content\MetroUICss\LightSwitchTiles.css" />
+    <Content Include="Content\MetroUICss\LightSwitchTiles.less" />
+    <Content Include="Content\MetroUICss\LightSwitchTiles.min.css" />
+    <Content Include="Content\MetroUICss\mixins.less" />
+    <Content Include="Content\MetroUICss\tiles.less" />
+    <Content Include="Content\MetroUICss\transform.less" />
+    <Content Include="Content\MetroUICss\typography.less" />
+    <Content Include="Content\MetroUICss\variables.less" />
+    <Content Include="Content\msls-2.0.0.css" />
+    <Content Include="Content\msls-2.0.0.min.css" />
+    <Content Include="Content\msls-dark-2.0.0.css" />
+    <Content Include="Content\msls-light-2.0.0.css" />
+    <Content Include="Content\sp-msls-light-theme.css" />
+    <Content Include="Content\spectrum.css" />
+    <Content Include="default.htm" />
+    <Content Include="Content\user-customization.css" />
+    <Content Include="Content\Images\user-logo.png" />
+    <Content Include="Content\Images\user-splash-screen.png" />
+    <Content Include="Content\Web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Screens\CFBrowsePaymentRecords.lsml.js">
+      <DependentUpon>CFBrowsePaymentRecords.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\CFEditConvicts.lsml.js">
+      <DependentUpon>CFEditConvicts.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\CFEditPaymentRecord.lsml.js">
+      <DependentUpon>CFEditPaymentRecord.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\ConvictsAdmin.lsml.js">
+      <DependentUpon>ConvictsAdmin.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\MenuExport.lsml.js">
+      <DependentUpon>MenuExport.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\Security.lsml.js">
+      <DependentUpon>Security.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\IconAddEdit.lsml.js">
+      <DependentUpon>IconAddEdit.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\IconsBrowse.lsml.js">
+      <DependentUpon>IconsBrowse.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\IconsImport.lsml.js">
+      <DependentUpon>IconsImport.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\MenuTileAddEdit.lsml.js">
+      <DependentUpon>MenuTileAddEdit.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\MenuView.lsml.js">
+      <DependentUpon>MenuView.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\RoleView.lsml.js">
+      <DependentUpon>RoleView.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\Start.lsml.js">
+      <DependentUpon>Start.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\UserRegistrationAddEdit.lsml.js">
+      <DependentUpon>UserRegistrationAddEdit.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\UserRegistrationView.lsml.js">
+      <DependentUpon>UserRegistrationView.lsml</DependentUpon>
+    </Content>
+    <Content Include="Screens\UserRoleAssignmentAddEdit.lsml.js">
+      <DependentUpon>UserRoleAssignmentAddEdit.lsml</DependentUpon>
+    </Content>
+    <Content Include="Scripts\datajs-1.1.1.js" />
+    <Content Include="Scripts\datajs-1.1.1.min.js" />
+    <Content Include="Scripts\itg-msls-helpers.js" />
+    <Content Include="Scripts\itgLsHelper.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery.mobile-1.3.0-vsdoc.js" />
+    <Content Include="Scripts\jquery.mobile-1.3.0.js" />
+    <Content Include="Scripts\jquery.mobile-1.3.0.min.js" />
+    <Content Include="Scripts\msls.js" />
+    <Content Include="Scripts\msls-2.0.0-vsdoc.js" />
+    <Content Include="Scripts\msls-2.0.0.js" />
+    <Content Include="Scripts\msls-2.0.0.min.js" />
+    <Content Include="Scripts\spectrum.js" />
+    <Content Include="Scripts\utilities.js" />
+    <Content Include="Scripts\winjs-1.0.js" />
+    <Content Include="Scripts\winjs-1.0.min.js" />
+    <Content Include="UserCode\MenuTile.lsml.js">
+      <DependentUpon>
+      </DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ServiceMetadataReference Include="..\CFACWebAdmin.Server\CFACWebAdmin.Server.csproj">
+      <Visible>false</Visible>
+    </ServiceMetadataReference>
+  </ItemGroup>
+  <ItemGroup>
+    <LightSwitchModel Include="Properties\ApplicationData\Menus.lsml" />
+    <LightSwitchModel Include="Properties\Client.lsml">
+      <ProjectCritical>true</ProjectCritical>
+    </LightSwitchModel>
+    <LightSwitchModel Include="Properties\ConvictsAzureData\PaymentRecords.lsml" />
+    <LightSwitchModel Include="Properties\LsSecurityData\Permissions.lsml" />
+    <LightSwitchModel Include="Properties\LsSecurityData\Roles.lsml" />
+    <LightSwitchModel Include="Properties\LsSecurityData\UserRegistrations.lsml" />
+    <LightSwitchModel Include="Properties\Proxies.lsml" />
+    <LightSwitchModel Include="Screens\BrowsePaymentRecords_Temp.lsml" />
+    <LightSwitchModel Include="Screens\CFBrowsePaymentRecords.lsml" />
+    <LightSwitchModel Include="Screens\CFEditConvicts.lsml" />
+    <LightSwitchModel Include="Screens\CFEditPaymentRecord.lsml" />
+    <LightSwitchModel Include="Screens\ConvictsAdmin.lsml" />
+    <LightSwitchModel Include="Screens\CFBrowseConvicts.lsml" />
+    <LightSwitchModel Include="Screens\MenuExport.lsml" />
+    <LightSwitchModel Include="Screens\Security.lsml" />
+    <LightSwitchModel Include="Screens\IconAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\IconsBrowse.lsml" />
+    <LightSwitchModel Include="Screens\IconsImport.lsml" />
+    <LightSwitchModel Include="Screens\MenuAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\MenusBrowse.lsml" />
+    <LightSwitchModel Include="Screens\MenuTileAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\MenuView.lsml" />
+    <LightSwitchModel Include="Screens\PermissionsBrowse.lsml" />
+    <LightSwitchModel Include="Screens\PermissionView.lsml" />
+    <LightSwitchModel Include="Screens\Profile.lsml" />
+    <LightSwitchModel Include="Screens\RoleAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\RolePermissionAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\RolesBrowse.lsml" />
+    <LightSwitchModel Include="Screens\RoleView.lsml" />
+    <LightSwitchModel Include="Screens\Start.lsml" />
+    <LightSwitchModel Include="Screens\UserRegistrationAddEdit.lsml" />
+    <LightSwitchModel Include="Screens\UserRegistrationsBrowse.lsml" />
+    <LightSwitchModel Include="Screens\UserRegistrationView.lsml" />
+    <LightSwitchModel Include="Screens\UserRoleAssignmentAddEdit.lsml" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ClientBuildFile Include="GeneratedArtifacts\model.json">
+      <SubFolder>Content\Resources\Generated</SubFolder>
+    </_ClientBuildFile>
+    <_ClientBuildFile Include="GeneratedArtifacts\data.js">
+      <SubFolder>Scripts\Generated</SubFolder>
+    </_ClientBuildFile>
+    <_ClientBuildFile Include="GeneratedArtifacts\viewModel.js">
+      <SubFolder>Scripts\Generated</SubFolder>
+    </_ClientBuildFile>
+    <_ClientBuildFile Include="GeneratedArtifacts\usercode.js">
+      <SubFolder>Scripts\Generated</SubFolder>
+    </_ClientBuildFile>
+    <_ClientBuildFile Include="GeneratedArtifacts\resources.js">
+      <SubFolder>Scripts\Generated</SubFolder>
+    </_ClientBuildFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\LightSwitch\v4.0\MobileClient\Microsoft.LightSwitch.MobileClient.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\LightSwitch\v4.0\Microsoft.LightSwitch.Build.Tasks.targets" />
+  <!-- Redefine the targets to be empty -->
+  <Target Name="GetXapOutputFile" />
+  <PropertyGroup>
+    <AppxPackage>false</AppxPackage>
+    <AppxGeneratePriEnabled>false</AppxGeneratePriEnabled>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

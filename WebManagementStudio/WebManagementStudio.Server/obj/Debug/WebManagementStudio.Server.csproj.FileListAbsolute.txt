@@ -29,8 +29,6 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Serv
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.ServiceModel.DomainServices.Server.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\obj\Debug\Application.Server.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\obj\Debug\Application.Server.pdb
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\MetroThemeExtension.Common.dll
-C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\obj\Debug\WebManagementStudio.Server.csprojResolveAssemblyReference.cache
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\Application.Server.dll.config
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\WebManagementStudio.Server\bin\Debug\System.IdentityModel.Tokens.Jwt.xml

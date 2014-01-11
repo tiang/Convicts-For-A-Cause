@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebManagementStudio.Server"
 		{3FC5C459-DB73-4D1D-B80A-874779F9C311} = {3FC5C459-DB73-4D1D-B80A-874779F9C311}
 	EndProjectSection
 EndProject
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "CFACWebAdmin.App", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.App\CFACWebAdmin.App.jsproj", "{81BCFAFF-9963-44CB-8386-067E878A389E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFACWebAdmin.Server", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.Server\CFACWebAdmin.Server.csproj", "{DB614595-3C2A-42F8-9981-DED5E190C18B}"
+EndProject
+Project("{8D9C8A9D-5DED-4B64-BF65-B598BA549D93}") = "CFACWebAdmin", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.lsxproj", "{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +65,18 @@ Global
 		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BCFAFF-9963-44CB-8386-067E878A389E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BCFAFF-9963-44CB-8386-067E878A389E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BCFAFF-9963-44CB-8386-067E878A389E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BCFAFF-9963-44CB-8386-067E878A389E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB614595-3C2A-42F8-9981-DED5E190C18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB614595-3C2A-42F8-9981-DED5E190C18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB614595-3C2A-42F8-9981-DED5E190C18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB614595-3C2A-42F8-9981-DED5E190C18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

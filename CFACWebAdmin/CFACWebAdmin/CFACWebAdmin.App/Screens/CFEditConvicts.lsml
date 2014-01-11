@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application
+  Name="LightSwitchApplication.CFACWebAdmin.App" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <Application.Attributes>
+    <Partial />
+  </Application.Attributes>
+  <Screen
+    Name="CFEditConvicts">
+    <Screen.Attributes>
+      <SaveChangesTo
+        EntityContainer="ConvictsAzureData" />
+      <DisplayName
+        Value="Edit Convict" />
+    </Screen.Attributes>
+    <Screen.RootContentItem>
+      <ContentItem
+        Name="RootContentItem"
+        Kind="Screen"
+        View="Microsoft.LightSwitch.MobileWeb:Screen">
+        <ContentItem
+          Name="Tabs"
+          Kind="Group"
+          View="Microsoft.LightSwitch.MobileWeb:TabPages">
+          <ContentItem
+            Name="Group"
+            Kind="Group"
+            View="Microsoft.LightSwitch.MobileWeb:ColumnsLayout">
+            <ContentItem
+              Name="Group1"
+              Kind="Group">
+              <ContentItem
+                Name="ScreenContent"
+                Kind="ScreenContent">
+                <ContentItem.PropertySources>
+                  <ControlPropertySource
+                    Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[AttachedLabelPosition]">
+                    <ScreenExpressionTree>
+                      <ChainExpression>
+                        <ConstantExpression
+                          Value="None"
+                          ResultType=":String" />
+                      </ChainExpression>
+                    </ScreenExpressionTree>
+                  </ControlPropertySource>
+                </ContentItem.PropertySources>
+              </ContentItem>
+              <ContentItem.PropertySources>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:ColumnsLayout/Properties[WeightedColumnWidth]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="-1"
+                        ResultType=":Double" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MaxWidth]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="100"
+                        ResultType=":Double" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[WidthSizingMode]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="FixedSize"
+                        ResultType=":String" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[Width]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="300"
+                        ResultType=":Double" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:RootGroup/Properties[CompactMargins]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="True"
+                        ResultType=":Boolean" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+              </ContentItem.PropertySources>
+            </ContentItem>
+            <ContentItem
+              Name="Details"
+              Kind="Group"
+              View="Microsoft.LightSwitch.MobileWeb:RowsLayout">
+              <ContentItem.Attributes>
+                <DisplayName
+                  Value="Details" />
+              </ContentItem.Attributes>
+              <ContentItem
+                Name="columns"
+                Kind="Details"
+                DataType="Convict"
+                View="Microsoft.LightSwitch.MobileWeb:ColumnsLayout">
+                <ContentItem.Attributes>
+                  <DisplayName
+                    Value="columns" />
+                </ContentItem.Attributes>
+                <ContentItem.DataSource>
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <MemberExpression
+                        Member="CFEditConvicts/Properties[Convict]" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ContentItem.DataSource>
+                <ContentItem
+                  Name="left"
+                  Kind="Group">
+                  <ContentItem
+                    Name="Name"
+                    Kind="Value"
+                    DataType=":String?">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[Name]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="Email"
+                    Kind="Value"
+                    DataType=":String">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[Email]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="TeamType"
+                    Kind="Value"
+                    DataType=":String?">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[TeamType]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="Total"
+                    Kind="Value"
+                    DataType=":String">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[Total]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MinWidth]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="200"
+                            ResultType=":Double" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MaxWidth]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="400"
+                            ResultType=":Double" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+                <ContentItem
+                  Name="right"
+                  Kind="Group">
+                  <ContentItem
+                    Name="ConvictCode"
+                    Kind="Value"
+                    DataType=":String?">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[ConvictCode]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="ProfileURL"
+                    Kind="Value"
+                    DataType=":String?">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[ProfileURL]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="TeamCode"
+                    Kind="Value"
+                    DataType=":String?">
+                    <ContentItem.DataSource>
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <MemberExpression
+                            Member="Convict/Properties[TeamCode]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ContentItem.DataSource>
+                  </ContentItem>
+                  <ContentItem
+                    Name="Add_Payment1"
+                    IsHidden="True"
+                    Kind="Command">
+                    <ContentItem.Attributes>
+                      <DisplayName
+                        Value="Add Payment" />
+                    </ContentItem.Attributes>
+                    <ContentItem.PropertySources>
+                      <ControlPropertySource
+                        Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[Tap]">
+                        <ScreenExpressionTree>
+                          <ChainExpression>
+                            <CallExpression
+                              Target="CFEditConvicts/Methods[Add_Payment]" />
+                          </ChainExpression>
+                        </ScreenExpressionTree>
+                      </ControlPropertySource>
+                    </ContentItem.PropertySources>
+                  </ContentItem>
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MinWidth]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="200"
+                            ResultType=":Double" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[MaxWidth]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <ConstantExpression
+                            Value="400"
+                            ResultType=":Double" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+              </ContentItem>
+              <ContentItem.CommandItems>
+                <ContentItem
+                  Name="Add_Payment"
+                  Kind="Command">
+                  <ContentItem.PropertySources>
+                    <ControlPropertySource
+                      Property="Microsoft.LightSwitch.MobileWeb:RootControl/Properties[Tap]">
+                      <ScreenExpressionTree>
+                        <ChainExpression>
+                          <CallExpression
+                            Target="CFEditConvicts/Methods[Add_Payment]" />
+                        </ChainExpression>
+                      </ScreenExpressionTree>
+                    </ControlPropertySource>
+                  </ContentItem.PropertySources>
+                </ContentItem>
+              </ContentItem.CommandItems>
+              <ContentItem.PropertySources>
+                <ControlPropertySource
+                  Property="Microsoft.LightSwitch.MobileWeb:ColumnsLayout/Properties[WeightedColumnWidth]">
+                  <ScreenExpressionTree>
+                    <ChainExpression>
+                      <ConstantExpression
+                        Value="-1"
+                        ResultType=":Double" />
+                    </ChainExpression>
+                  </ScreenExpressionTree>
+                </ControlPropertySource>
+              </ContentItem.PropertySources>
+            </ContentItem>
+          </ContentItem>
+        </ContentItem>
+        <ContentItem
+          Name="Popups"
+          Kind="Group"
+          View="Microsoft.LightSwitch.MobileWeb:DialogPages" />
+        <ContentItem.PropertySources>
+          <ControlPropertySource
+            Property="Microsoft.LightSwitch.MobileWeb:Screen/Properties[ScreenType]">
+            <ScreenExpressionTree>
+              <ChainExpression>
+                <ConstantExpression
+                  Value="Edit"
+                  ResultType=":String" />
+              </ChainExpression>
+            </ScreenExpressionTree>
+          </ControlPropertySource>
+        </ContentItem.PropertySources>
+      </ContentItem>
+    </Screen.RootContentItem>
+    <Screen.Methods>
+      <ScreenMethod
+        Name="showTab">
+        <ScreenMethod.Attributes>
+          <DisplayMethodByDefault
+            Display="True" />
+          <Generated />
+        </ScreenMethod.Attributes>
+        <ScreenMethodParameter
+          Name="tabName"
+          ParameterType=":String" />
+      </ScreenMethod>
+      <ScreenMethod
+        Name="showDialog">
+        <ScreenMethod.Attributes>
+          <DisplayMethodByDefault
+            Display="True" />
+          <Generated />
+        </ScreenMethod.Attributes>
+        <ScreenMethodParameter
+          Name="dialogName"
+          ParameterType=":String" />
+      </ScreenMethod>
+      <ScreenMethod
+        Name="Add_Payment" />
+    </Screen.Methods>
+    <Screen.Properties>
+      <ScreenProperty
+        Name="Convict"
+        PropertyType="Convict">
+        <ScreenProperty.Attributes>
+          <IsParameter />
+        </ScreenProperty.Attributes>
+      </ScreenProperty>
+    </Screen.Properties>
+  </Screen>
+  <Application.Methods>
+    <ApplicationMethod
+      Name="showCFEditConvicts">
+      <ApplicationMethod.Attributes>
+        <ShowScreenMethod
+          TargetScreen="CFEditConvicts" />
+      </ApplicationMethod.Attributes>
+      <ApplicationMethodParameter
+        Name="Convict"
+        ParameterType="Convict" />
+    </ApplicationMethod>
+  </Application.Methods>
+</Application>

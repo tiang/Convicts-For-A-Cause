@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityType
+    Name="Team">
+    <EntityType.Methods>
+      <EntityMethod
+        Name="Delete">
+        <EntityMethod.Attributes>
+          <Generated />
+        </EntityMethod.Attributes>
+      </EntityMethod>
+    </EntityType.Methods>
+    <EntityType.Properties>
+      <KeyProperty
+        Name="TeamCode"
+        PropertyType=":String">
+        <KeyProperty.Attributes>
+          <Required />
+          <MaxLength
+            Value="128" />
+        </KeyProperty.Attributes>
+      </KeyProperty>
+      <EntityProperty
+        Name="TeamName"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="TeamURL"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="TeamType"
+        PropertyType=":String?">
+        <EntityProperty.Attributes>
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="CreateDate"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <Required />
+          <DateTimeConstraint
+            Precision="3"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="ModifiedDate"
+        PropertyType=":DateTime">
+        <EntityProperty.Attributes>
+          <Required />
+          <DateTimeConstraint
+            Precision="3"
+            PreserveSeconds="True" />
+          <NotSearchable />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+      <EntityProperty
+        Name="Total"
+        PropertyType=":String">
+        <EntityProperty.Attributes>
+          <Required />
+          <MaxLength />
+        </EntityProperty.Attributes>
+      </EntityProperty>
+    </EntityType.Properties>
+  </EntityType>
+  <EntityContainer
+    Name="ConvictsAzureData">
+    <EntityContainer.Attributes>
+      <Partial />
+    </EntityContainer.Attributes>
+    <EntitySet
+      Name="Teams"
+      CanDelete="True"
+      CanInsert="True"
+      CanUpdate="True"
+      EntityType="Team" />
+    <QueryOperation
+      Name="Teams_Single"
+      ReturnType="Team">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s)." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="TeamCode" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="TeamCode" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="Teams" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="TeamCode"
+        ParameterType=":String?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'TeamCode' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+    <QueryOperation
+      Name="Teams_SingleOrDefault"
+      ReturnType="Team">
+      <QueryOperation.Attributes>
+        <Generated />
+        <Description
+          Value="Returns the entity whose identity is specified by the parameter(s) or null if no such entity exists." />
+      </QueryOperation.Attributes>
+      <QueryOperation.FilterExpression>
+        <QueryFilterExpressionTree>
+          <BinaryExpression
+            NodeType="Equal">
+            <BinaryExpression.Left>
+              <ChainExpression>
+                <MemberExpression
+                  Member="TeamCode" />
+              </ChainExpression>
+            </BinaryExpression.Left>
+            <BinaryExpression.Right>
+              <ParameterExpression
+                Parameter="TeamCode" />
+            </BinaryExpression.Right>
+          </BinaryExpression>
+        </QueryFilterExpressionTree>
+      </QueryOperation.FilterExpression>
+      <QueryOperation.Source>
+        <QuerySourceExpressionTree>
+          <MemberExpression
+            Member="Teams" />
+        </QuerySourceExpressionTree>
+      </QueryOperation.Source>
+      <QueryOperationParameter
+        Name="TeamCode"
+        ParameterType=":String?">
+        <QueryOperationParameter.Attributes>
+          <Description
+            Value="The value of the 'TeamCode' key property of the entity to retrieve." />
+        </QueryOperationParameter.Attributes>
+      </QueryOperationParameter>
+    </QueryOperation>
+  </EntityContainer>
+  <DataService
+    Name="ConvictsAzureDataDataService">
+    <DataService.Attributes>
+      <Partial />
+    </DataService.Attributes>
+    <EntitySetMapping
+      EntitySet="Teams">
+      <EntitySetMapping.Attributes>
+        <SsdlEntitySet
+          Schema="dbo"
+          Table="Teams" />
+        <SsdlProperty
+          MaxLength="128"
+          Name="TeamCode"
+          Nullable="False"
+          Type="nvarchar"
+          Property="Team/Properties[TeamCode]" />
+        <SsdlProperty
+          Name="TeamName"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="Team/Properties[TeamName]" />
+        <SsdlProperty
+          Name="TeamURL"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="Team/Properties[TeamURL]" />
+        <SsdlProperty
+          Name="TeamType"
+          Nullable="True"
+          Type="nvarchar(max)"
+          Property="Team/Properties[TeamType]" />
+        <SsdlProperty
+          Name="CreateDate"
+          Nullable="False"
+          Type="datetime"
+          Property="Team/Properties[CreateDate]" />
+        <SsdlProperty
+          Name="ModifiedDate"
+          Nullable="False"
+          Type="datetime"
+          Property="Team/Properties[ModifiedDate]" />
+        <SsdlProperty
+          Name="Total"
+          Nullable="False"
+          Type="nvarchar(max)"
+          Property="Team/Properties[Total]" />
+      </EntitySetMapping.Attributes>
+    </EntitySetMapping>
+  </DataService>
+</ServiceApplication>

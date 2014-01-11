@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceApplication
+  Name="LightSwitchServiceApplication" xmlns="http://schemas.microsoft.com/LightSwitch/2010/xaml/model">
+  <ServiceApplication.Attributes>
+    <Partial />
+  </ServiceApplication.Attributes>
+  <EntityContainer
+    Name="LsSecurityData">
+    <EntityContainer.Attributes>
+      <Partial
+        IsPrimary="True" />
+    </EntityContainer.Attributes>
+    <SubmitOperation
+      Name="SaveChanges" />
+  </EntityContainer>
+  <DataService
+    Name="LsSecurityDataDataService"
+    DataProvider="AstoriaDataProvider"
+    EntityContainer="LsSecurityData">
+    <DataService.Attributes>
+      <CsdlEntityContainer
+        Format="Json"
+        Name="SecurityData"
+        Namespace="Microsoft.LightSwitch.Security" />
+      <Partial
+        IsPrimary="True" />
+    </DataService.Attributes>
+    <DataService.ConnectionProperties>
+      <ConnectionProperty
+        Name="ConnectionStringGuid"
+        Value="b3f2d709-07af-43f9-a843-4527cb1a5a80" />
+      <ConnectionProperty
+        Name="ProjectMetadata"
+        Value="EdmxFile1" />
+    </DataService.ConnectionProperties>
+  </DataService>
+</ServiceApplication>

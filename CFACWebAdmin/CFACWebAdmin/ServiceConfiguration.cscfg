@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="CFACWebAdmin" osFamily="3" osVersion="*" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration">
+  <Role name="LightSwitchWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <!-- A value of true will enable diagnostic logging on the server -->
+      <Setting name="Microsoft.LightSwitch.Trace.Enabled" value="false" />
+      <!-- A value of true only lets local access to Trace.axd -->
+      <Setting name="Microsoft.LightSwitch.Trace.LocalOnly" value="true" />
+      <!-- The valid values for the trace level are: None, Error, Warning, Information, Verbose -->
+      <Setting name="Microsoft.LightSwitch.Trace.Level" value="Information" />
+      <!-- A value of true will indicate that logging sensitive information is okay -->
+      <Setting name="Microsoft.LightSwitch.Trace.Sensitive" value="false" />
+      <!-- The semi-colon separated list of categories that will be enabled at the specifed trace level -->
+      <Setting name="Microsoft.LightSwitch.Trace.Categories" value="Microsoft.LightSwitch" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="tiang" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnwYJKoZIhvcNAQcDoIIBkDCCAYwCAQAxggFQMIIBTAIBADA0MCAxHjAcBgNVBAMMFU1pY3Jvc29mdCBMaWdodFN3aXRjaAIQZIKXTrPcGKZJCMUkPw6vqzANBgkqhkiG9w0BAQEFAASCAQAIqM0CjsgSoudEe4RqT2Hji15On3aDjB/br/yvQ4S2Zi5R7C1d0oz7V1s47EIQ/MQRPRS81e/9O9B6fKV6A1StUW6WgrcVMngYdXsa/zMgKpYXnaXygjGCQGVTAvXIHa3phkkDA2YeXprZ9G27h8+O9bneGiWwZUUI2XGAOJZBvcesk2KzhaJKKiPgDe6CcuAHlcrImJNJsrx15EOYZpNu8NxopR7+/LlrH6hZdfUDw0xvowHWGPhyn/k/ULbraT04bNjfMcvcS5c8yFnfJGHu9c6t0EXuvV3EvreByh79DntqQvz9wdrTn/IkMHCnQIi3N6tKOoCwcb/oL4Ffwx7tMDMGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIGv0YUtbSxFmAECajy3HUwWoDL75igdeviwY=" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-01-10T23:59:59.0000000+02:00" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="238952786F9859188C5AF0EAF2D99A611173DCB4" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

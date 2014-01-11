@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<sitemanifest>
-  <IisApp path="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\app.publish\" />
-  <setAcl path="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\app.publish\" setAclResourceType="Directory" />
-  <setAcl path="C:\Temp\GitHub\Convicts-For-A-Cause\WebManagementStudio\Bin\Debug\app.publish\" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
-</sitemanifest>
