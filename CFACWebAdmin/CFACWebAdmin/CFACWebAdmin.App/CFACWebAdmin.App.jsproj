@@ -167,6 +167,7 @@
     <LightSwitchModel Include="Properties\LsSecurityData\Roles.lsml" />
     <LightSwitchModel Include="Properties\LsSecurityData\UserRegistrations.lsml" />
     <LightSwitchModel Include="Properties\Proxies.lsml" />
+    <LightSwitchModel Include="Screens\CFBrowseTeams.lsml" />
     <LightSwitchModel Include="Screens\CFEditPaymentRecord.lsml" />
     <LightSwitchModel Include="Screens\CFBrowsePaymentRecords.lsml" />
     <LightSwitchModel Include="Screens\CFEditConvicts.lsml" />

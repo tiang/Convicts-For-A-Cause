@@ -20,7 +20,7 @@ var addNewDonation = function () {
         afterClosed: function (addNewScreen, navigationAction) {
             // Update the last cached OrderDetailRowParent item 
             debugger;
-
+            myapp.applyChanges();
     }
 
     });

@@ -10,3 +10,7 @@ myapp.CFEditPaymentRecord.Message_postRender = function (element, contentItem) {
     var text = WMS.utility.htmlDecode(contentItem.value);
     contentItem.value = text;
 };
+myapp.CFEditPaymentRecord.SaveChanges_execute = function (screen) {
+    // Write code here.
+    myapp.activeDataWorkspace.ApplicationData.saveChanges()
+};
