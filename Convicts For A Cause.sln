@@ -16,20 +16,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentTypeHttpModule", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leaderboard", "WorkerRole1\Leaderboard.csproj", "{C0605F1B-511A-4CA8-9660-1CAB28D8EECF}"
 EndProject
-Project("{8D9C8A9D-5DED-4B64-BF65-B598BA549D93}") = "WebManagementStudio", "WebManagementStudio\WebManagementStudio.lsxproj", "{D93C1B83-80CC-44C7-9BD9-92B66DADC5F1}"
-EndProject
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "WebManagementStudio.HTMLClient", "WebManagementStudio\WebManagementStudio.HTMLClient\WebManagementStudio.HTMLClient.jsproj", "{3FC5C459-DB73-4D1D-B80A-874779F9C311}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebManagementStudio.Server", "WebManagementStudio\WebManagementStudio.Server\WebManagementStudio.Server.csproj", "{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3FC5C459-DB73-4D1D-B80A-874779F9C311} = {3FC5C459-DB73-4D1D-B80A-874779F9C311}
-	EndProjectSection
-EndProject
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "CFACWebAdmin.App", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.App\CFACWebAdmin.App.jsproj", "{81BCFAFF-9963-44CB-8386-067E878A389E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFACWebAdmin.Server", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.Server\CFACWebAdmin.Server.csproj", "{DB614595-3C2A-42F8-9981-DED5E190C18B}"
 EndProject
 Project("{8D9C8A9D-5DED-4B64-BF65-B598BA549D93}") = "CFACWebAdmin", "CFACWebAdmin\CFACWebAdmin\CFACWebAdmin.lsxproj", "{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFACUnitTests", "CFACUnitTests\CFACUnitTests.csproj", "{87A412F7-F319-4403-8BAF-096888AB08E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,18 +46,6 @@ Global
 		{C0605F1B-511A-4CA8-9660-1CAB28D8EECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0605F1B-511A-4CA8-9660-1CAB28D8EECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0605F1B-511A-4CA8-9660-1CAB28D8EECF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D93C1B83-80CC-44C7-9BD9-92B66DADC5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D93C1B83-80CC-44C7-9BD9-92B66DADC5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D93C1B83-80CC-44C7-9BD9-92B66DADC5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D93C1B83-80CC-44C7-9BD9-92B66DADC5F1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3FC5C459-DB73-4D1D-B80A-874779F9C311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3FC5C459-DB73-4D1D-B80A-874779F9C311}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3FC5C459-DB73-4D1D-B80A-874779F9C311}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3FC5C459-DB73-4D1D-B80A-874779F9C311}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7B39ED69-9E27-4D2A-9E6E-42FC00855C63}.Release|Any CPU.Build.0 = Release|Any CPU
 		{81BCFAFF-9963-44CB-8386-067E878A389E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{81BCFAFF-9963-44CB-8386-067E878A389E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81BCFAFF-9963-44CB-8386-067E878A389E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -77,6 +58,10 @@ Global
 		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4622BC09-E19A-44C0-8B58-E8A5A60C9B86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A412F7-F319-4403-8BAF-096888AB08E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A412F7-F319-4403-8BAF-096888AB08E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A412F7-F319-4403-8BAF-096888AB08E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A412F7-F319-4403-8BAF-096888AB08E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
