@@ -10,14 +10,18 @@ namespace Convicts_For_A_Cause
     /// <summary>
     /// Provide CRUD methods for interacting with convicts table.
     /// </summary>
-    public class convictsHelper
+    public class convictsHelper : IConvictsHelper
     {
 
-        public static ConvictReturnObject registerTeamConvict(string email, string name, string registrationType)
+        public convictsHelper()
+        {
+
+
+        }
+
+        public ConvictReturnObject registerTeamConvict(string email, string name, string registrationType)
         {
             ConvictsContext db = new ConvictsContext();
-
-            
 
             Convict convict = new Convict();
             string returnStatus = "false";

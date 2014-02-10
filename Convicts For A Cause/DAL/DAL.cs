@@ -2,6 +2,7 @@
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity.Infrastructure;
+using System.Linq;
 
 public class Convict
 {
@@ -83,19 +84,26 @@ public class TeamDTO
     public string errorMessage;
 }
 
-
-public class ConvictsContext : DbContext
+public interface IConvictsContext
 {
-    public DbSet<Convict> Convicts { get; set; }
-    public DbSet<PaymentRecord> Payments { get; set; }
-    public DbSet<Team> Teams { get; set; }
+    IDbSet<Convict> Convicts { get; set; }
+    IDbSet<PaymentRecord> Payments { get; set; }
+    IDbSet<Team> Teams { get; set; }
+        
+}
+
+public class ConvictsContext : DbContext, IConvictsContext
+{
+    public IDbSet<Convict> Convicts { get; set; }
+
+    public IDbSet<PaymentRecord> Payments { get; set; }
+    public IDbSet<Team> Teams { get; set; }
    // public DbSet<Leaderboard> Leaderboards { get; set; }
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
     {
         //Disable EDM Data Table checking as we are not using CodeFirst anymore. 
-       modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
-       
-       
+        
+        modelBuilder.Conventions.Remove<IncludeMetadataConvention>();
     }
 }

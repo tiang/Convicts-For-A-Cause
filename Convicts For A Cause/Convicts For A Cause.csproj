@@ -168,6 +168,7 @@
     </Compile>
     <Compile Include="Helper\Helper.cs" />
     <Compile Include="Helper\BCWebApp.cs" />
+    <Compile Include="Helper\IConvictsHelper.cs" />
     <Compile Include="leaderboard.asmx.cs">
       <DependentUpon>leaderboard.asmx</DependentUpon>
       <SubType>Component</SubType>
