@@ -113,7 +113,9 @@ namespace Convicts_For_A_Cause
         [ScriptMethod(UseHttpGet = true, ResponseFormat = ResponseFormat.Json)]
         public string RegisterTeamLeader(string email, string name, Double amount, string registrationType)
         {
-            ConvictReturnObject convictResults = convictsHelper.registerTeamConvict(email, name, registrationType);
+            var convictHelper = new convictsHelper();
+
+            ConvictReturnObject convictResults = convictHelper.registerTeamConvict(email, name, registrationType);
 
             PaymentDTO paymentResults = paymentsHelper.AddPayment(email, email, amount, "", "team registration", false, DateTime.Now,0,0);
             /**

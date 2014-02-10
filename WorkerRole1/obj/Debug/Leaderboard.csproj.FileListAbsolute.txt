@@ -234,7 +234,6 @@ C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\System.Xml.Linq.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\HtmlAgilityPack.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Convicts For A Cause.pdb
-C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\EntityFramework.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.Data.Edm.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.Data.OData.xml
 C:\Temp\GitHub\Convicts-For-A-Cause\WorkerRole1\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml

@@ -39,3 +39,4 @@ C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\b
 C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\bin\Debug\ContentTypeHttpModule.pdb
 C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.dll
 C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.pdb
+C:\Temp\GitHub\Convicts-For-A-Cause\Convicts For A Cause\ContentTypeHttpModule\obj\Debug\ContentTypeHttpModule.csprojResolveAssemblyReference.cache
